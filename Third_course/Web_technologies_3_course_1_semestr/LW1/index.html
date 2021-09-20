@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 1.</title>
+
+    <meta name="description" content="Лабораторная работа 1. Введение в JavaScript. 
+                   Программное взаимодействие с HTML документами на основе DOM API.">
+    <meta name="author" content="Сапожников В.О. 19-В-1">
+
+    <!-- Сброс css стилей для браузеров -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
+
+    <!-- подключение нашего css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Подключение js скриптов -->
+    <script type="text/javascript" src="js/logic.js"></script>
+</head>
+
+<body>
+    <section class="introduction">
+        <div class="container">
+            <div class="logo">
+                <img src="/icons/logo.png" alt="logo" class="logo_img">
+                <div class="logo_text"><span>минобрнауки россии</span> <br>
+                    Федеральное государственное образовательное
+                    учреждение высшего образования <br>
+                    <span>нижегоросдкий государственный технический университет</span>
+                    им. <span>р.е.алексеева</span>
+                </div>
+            </div>
+
+            <div class="about">
+                <div class="about_me">
+                    <img src="/image/avatar.jpeg" alt="Roza Robot" class="avatar">
+                    <div class="about_me_text">
+                        Сапожников В.О.<br>
+                        19-В-1
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/progerSapog" class="github_link">
+                            <img src="/icons/GitHub-Mark-Light-64px.png" alt="github_mark" class="link_icon">
+                        </a>
+                        <a href="https://vk.com/programmersapog" class="vk_link">
+                            <img src="/icons/VK-logo.png" alt="vk_mark" class="link_icon">
+                        </a>
+                        <a href="https://t.me/VladIsLove_20" class="tg_link">
+                            <img src="/icons/Telegram_Logo.png" alt="tg_mark" class="link_icon">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about_task">
+                    <h1>Лабораторная работа 1. <br>
+                        Введение в JavaScript.
+                        Программное взаимодействие с HTML документами на основе DOM API.</h1>
+                    <div class="task_text">
+                        Создать страницу со скриптом, в котором создается объект Компьютер с 3-мя свойствами: модель,
+                        производитель, цена. Вывести по нажатию кнопки все значения свойств на экран.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="task">
+        <div class="container">
+            <button class="create" onclick="addNewComputer()">Создать объект</button>
+        </div>
+
+        <div class="result_wrapper">
+
+            <!-- html пример вставляемых элементов -->
+
+            <!-- <div class="result_item">
+                <div class="result_img">
+                    <img src="/icons/computer.png" alt="computer" class="computer_img">
+                </div>
+                <div class="result_text">
+                    Model: aesgvseg <br>
+                    Producer: rhdehfr<br>
+                    Price: 22541531 <br>
+                </div>
+            </div> -->
+
+            
+        </div>
+    </section>
+</body>
+
+</html>

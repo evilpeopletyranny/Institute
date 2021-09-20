@@ -1,0 +1,15 @@
+<!-- Настройка работы логгера logf4-->
+<Configuration status="INFO">
+    <Appenders>
+        <!-- Добавление журнала для записи-->
+        <File name="FileAppender" fileName="Logs/appLog-${date:yyyy-MM-dd}.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <!-- Вывод в файл всех логов от уровня дебаг и выше -->
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

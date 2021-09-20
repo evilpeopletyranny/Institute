@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Блок контейнер, содержащий все элементы
+    сайта */
+.container {
+    position: relative;
+    width: 1080px;  
+    
+    /* Выравнивание блочного элемента по центру */
+    margin: 0 auto; 
+}
+
+.introduction {
+    min-height: 650px;
+
+    /* Подключение фото в качестве заднего фона 
+    linear-gradient - затемненение фото при помощи градиента
+    center center   - центрирование по ширине, высоте
+    cover           - растянуть на заданый объем
+    no-repeat       - не повторять */
+    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url('../image/bg/intoduction_bg.jpg') center center / cover no-repeat;
+}
+
+.logo .logo_img {
+    width: 150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    color: #FFFFFF;
+    font-style: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.logo .logo_text span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.about .about_me {
+    width: 200px;
+}
+
+.about .about_me .about_me_text {
+
+    margin-top: 10px;
+    min-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.about .about_me .avatar {
+    display: block;
+    border-radius: 100%;
+}
+
+.about_me .links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_me .links * img {
+    width: 45px;
+    height: 45px;
+}
+
+.about .about_task {
+    width: 700px;
+}
+
+.about .about_task h1 {  
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about .about_task .task_text {  
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    text-indent: 1.5em;
+}
+
+.task {
+    min-height: 300px;
+}
+
+.task .create {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 2em;
+    background: #3498db;
+    color: #fff;
+    border: 0.25rem solid #3498db;
+    padding: 0.85em 0.75em;
+}
+
+.task .result_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    margin-top: 60px;
+    min-height: 300px;
+}
+
+.task .result_wrapper .result_item {
+    display: flex;
+    min-width: 300px;
+    height: 100px;
+    border: 2px solid rgb(238, 228, 228);
+    margin: 10px 20px 10px 20px;
+}
+
+.task .result_wrapper .result_img {
+    border-right: 2px solid rgb(238, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    background: #43adf3;
+}
+
+.task .result_wrapper .result_text {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 100%;
+}
+
+

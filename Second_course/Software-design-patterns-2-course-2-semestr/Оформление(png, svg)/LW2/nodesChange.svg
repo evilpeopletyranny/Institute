@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1446px"
+     height="840px" viewBox="-0.5 -0.5 1446 840"
+     content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2021-04-28T17:51:49.872Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36&quot; etag=&quot;c41JhMX0ai0FrREyNkge&quot; version=&quot;14.6.6&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;Msbu1jLUPIYCDRVDLm6y&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;"
+     style="background-color: rgb(255, 255, 255);">
+    <defs>
+        <clipPath id="mx-clip-359-31-212-26-0">
+            <rect x="359" y="31" width="212" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-359-57-212-26-0">
+            <rect x="359" y="57" width="212" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-359-91-212-26-0">
+            <rect x="359" y="91" width="212" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-359-117-212-26-0">
+            <rect x="359" y="117" width="212" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-359-143-212-26-0">
+            <rect x="359" y="143" width="212" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-359-169-212-26-0">
+            <rect x="359" y="169" width="212" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-619-109-152-26-0">
+            <rect x="619" y="109" width="152" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-69-101-262-26-0">
+            <rect x="69" y="101" width="262" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-69-135-262-26-0">
+            <rect x="69" y="135" width="262" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-69-161-262-26-0">
+            <rect x="69" y="161" width="262" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-69-187-262-26-0">
+            <rect x="69" y="187" width="262" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-149-341-272-26-0">
+            <rect x="149" y="341" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-149-375-272-26-0">
+            <rect x="149" y="375" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-149-401-272-26-0">
+            <rect x="149" y="401" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-149-427-272-26-0">
+            <rect x="149" y="427" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-149-453-272-26-0">
+            <rect x="149" y="453" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-489-309-272-26-0">
+            <rect x="489" y="309" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-489-335-272-26-0">
+            <rect x="489" y="335" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-489-429-272-26-0">
+            <rect x="489" y="429" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-599-199-192-26-0">
+            <rect x="599" y="199" width="192" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-9-541-272-26-0">
+            <rect x="9" y="541" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-9-575-272-26-0">
+            <rect x="9" y="575" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-9-601-272-26-0">
+            <rect x="9" y="601" width="272" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-399-529-252-26-0">
+            <rect x="399" y="529" width="252" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-399-619-252-26-0">
+            <rect x="399" y="619" width="252" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-449-789-232-26-0">
+            <rect x="449" y="789" width="232" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-449-815-232-26-0">
+            <rect x="449" y="815" width="232" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-829-663-612-26-0">
+            <rect x="829" y="663" width="612" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-829-689-612-26-0">
+            <rect x="829" y="689" width="612" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-829-715-612-26-0">
+            <rect x="829" y="715" width="612" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-829-741-612-26-0">
+            <rect x="829" y="741" width="612" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-19-709-312-26-0">
+            <rect x="19" y="709" width="312" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-19-735-312-26-0">
+            <rect x="19" y="735" width="312" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-19-761-312-26-0">
+            <rect x="19" y="761" width="312" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-135-472-26-0">
+            <rect x="899" y="135" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-161-472-26-0">
+            <rect x="899" y="161" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-195-472-26-0">
+            <rect x="899" y="195" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-221-472-26-0">
+            <rect x="899" y="221" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-247-472-26-0">
+            <rect x="899" y="247" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-273-472-26-0">
+            <rect x="899" y="273" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-299-472-26-0">
+            <rect x="899" y="299" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-325-472-26-0">
+            <rect x="899" y="325" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-351-472-26-0">
+            <rect x="899" y="351" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-377-472-26-0">
+            <rect x="899" y="377" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-403-472-26-0">
+            <rect x="899" y="403" width="472" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-899-429-472-26-0">
+            <rect x="899" y="429" width="472" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 355 26 L 355 0 L 575 0 L 575 26" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="all"/>
+        <path d="M 355 26 L 355 220 L 575 220 L 575 26" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 355 26 L 575 26" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="464.5" y="17.5">abstract class Node</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-359-31-212-26-0)"
+           font-size="12px">
+            <text x="360.5" y="43.5"># field: Node Parent</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-359-57-212-26-0)"
+           font-size="12px">
+            <text x="360.5" y="69.5"># field: String data</text>
+        </g>
+        <path d="M 355 82 L 575 82" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-359-91-212-26-0)"
+           font-size="12px">
+            <text x="360.5" y="103.5">+ constructor: Node()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-359-117-212-26-0)"
+           font-size="12px">
+            <text x="360.5" y="129.5">+ method: Node getParent()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-359-143-212-26-0)"
+           font-size="12px">
+            <text x="360.5" y="155.5">+ method: String getData()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-359-169-212-26-0)"
+           font-size="12px">
+            <text x="360.5" y="181.5">+ method: void setParent(Node parent)</text>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 218px; height: 1px; padding-top: 197px; margin-left: 357px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: left; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal; ">
+                                <span style="color: rgb(0 , 0 , 0) ; font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none">
+                                    + method: void setData(String data)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="357" y="209" fill="#000000" font-family="Helvetica" font-size="12px">+ method: void
+                    setData(String data)
+                </text>
+            </switch>
+        </g>
+        <path d="M 695 70 L 695 36 Q 695 26 685 26.01 L 592.02 26.15" fill="none" stroke="#000000"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 575.02 26.18 L 592.01 17.65 L 592.03 34.65 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 26px; margin-left: 657px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                Extends
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="657" y="29" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Extends
+                </text>
+            </switch>
+        </g>
+        <path d="M 615 96 L 615 70 L 775 70 L 775 96" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 615 96 L 615 130 L 775 130 L 775 96" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 615 96 L 775 96" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="694.5" y="87.5">abstract class Leaf</text>
+        </g>
+        <path d="M 615 100 L 775 100" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-619-109-152-26-0)"
+           font-size="12px">
+            <text x="620.5" y="121.5">+ constructor: Leaf()</text>
+        </g>
+        <path d="M 65 96 L 65 70 L 335 70 L 335 96" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 65 96 L 65 208 L 335 208 L 335 96" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 65 96 L 335 96" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="199.5" y="87.5">abstract class ContainerNode</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-69-101-262-26-0)"
+           font-size="12px">
+            <text x="70.5" y="113.5"># field: List&lt;Property&gt; propertyList</text>
+        </g>
+        <path d="M 65 126 L 335 126" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-69-135-262-26-0)"
+           font-size="12px">
+            <text x="70.5" y="147.5">+ constructor: ContainerNode()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-69-161-262-26-0)"
+           font-size="12px">
+            <text x="70.5" y="173.5">+ method: List&lt;Property&gt; getPropertyList()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-69-187-262-26-0)"
+           font-size="12px">
+            <text x="70.5" y="199.5">+ method: void addChildNode(Node childNode)</text>
+        </g>
+        <path d="M 200 70 L 200 30 Q 200 20 210 20 L 336.88 19.99" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 353.88 19.99 L 336.88 28.49 L 336.88 11.49 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 20px; margin-left: 252px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                Extends
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="252" y="23" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Extends
+                </text>
+            </switch>
+        </g>
+        <path d="M 145 336 L 145 310 L 425 310 L 425 336" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 145 336 L 145 474 L 425 474 L 425 336" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 145 336 L 425 336" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="284.5" y="327.5">ClassNode</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-149-341-272-26-0)"
+           font-size="12px">
+            <text x="150.5" y="353.5">- field: List&lt;ClassNodeStateEnum&gt; state</text>
+        </g>
+        <path d="M 145 366 L 425 366" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-149-375-272-26-0)"
+           font-size="12px">
+            <text x="150.5" y="387.5">+ constructor: ClassNode()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-149-401-272-26-0)"
+           font-size="12px">
+            <text x="150.5" y="413.5">+ method: void addChildNode(Node childNode)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-149-427-272-26-0)"
+           font-size="12px">
+            <text x="150.5" y="439.5">+ method: List&lt;ClassNodeStateEnum&gt; getState()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-149-453-272-26-0)"
+           font-size="12px">
+            <text x="150.5" y="465.5">+ method: void setState()</text>
+        </g>
+        <path d="M 285 310 L 285 300 Q 285 290 275 290 L 235 290 Q 225 290 233 290 L 237 290 Q 241 290 240.97 280 L 240.82 229.19"
+              fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 240.77 212.19 L 249.32 229.16 L 232.32 229.21 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 290px; margin-left: 233px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                Extends
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="233" y="293" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Extends
+                </text>
+            </switch>
+        </g>
+        <path d="M 485 296 L 485 270 L 765 270 L 765 296" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 485 296 L 485 356 L 765 356 L 765 296" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 485 296 L 765 296" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="624.5" y="287.5">IndividualNode</text>
+        </g>
+        <path d="M 485 300 L 765 300" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-489-309-272-26-0)"
+           font-size="12px">
+            <text x="490.5" y="321.5">+ constructor: individualNode()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-489-335-272-26-0)"
+           font-size="12px">
+            <text x="490.5" y="347.5">+ method: int hashCode()</text>
+        </g>
+        <path d="M 625 270 L 625 260 Q 625 250 615 250 L 328 250 Q 318 250 318 240 L 317.99 227.11" fill="none"
+              stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 317.99 210.11 L 326.49 227.1 L 309.49 227.11 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 250px; margin-left: 461px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                Extends
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="461" y="253" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Extends
+                </text>
+            </switch>
+        </g>
+        <path d="M 485 416 L 485 390 L 765 390 L 765 416" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 485 416 L 485 450 L 765 450 L 765 416" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 485 416 L 765 416" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="624.5" y="407.5">AttributeNode</text>
+        </g>
+        <path d="M 485 420 L 765 420" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-489-429-272-26-0)"
+           font-size="12px">
+            <text x="490.5" y="441.5">+ constructor: AttributeNode()</text>
+        </g>
+        <path d="M 625 390 L 625 380 Q 625 370 615 370 L 465 370 Q 455 370 455 360 L 455 280 Q 455 270 445 270 L 292 270 Q 282 270 282.01 260 L 282.06 225.13"
+              fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 282.08 208.13 L 290.56 225.14 L 273.56 225.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 298px; margin-left: 455px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                Extends
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="455" y="301" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Extends
+                </text>
+            </switch>
+        </g>
+        <path d="M 595 186 L 595 160 L 795 160 L 795 186" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 595 186 L 595 220 L 795 220 L 795 186" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 595 186 L 795 186" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="694.5" y="177.5">ValueNode</text>
+        </g>
+        <path d="M 595 190 L 795 190" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-599-199-192-26-0)"
+           font-size="12px">
+            <text x="600.5" y="211.5">+ constructor: ValueNode()</text>
+        </g>
+        <path d="M 695 160 L 695 148.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 695 131.12 L 703.5 148.12 L 686.5 148.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 144px; margin-left: 695px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                Extends
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="695" y="147" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Extends
+                </text>
+            </switch>
+        </g>
+        <path d="M 5 536 L 5 510 L 285 510 L 285 536" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 5 536 L 5 622 L 285 622 L 285 536" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 5 536 L 285 536" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="144.5" y="527.5">abstract class Property</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-9-541-272-26-0)"
+           font-size="12px">
+            <text x="10.5" y="553.5"># field: Node childNode</text>
+        </g>
+        <path d="M 5 566 L 285 566" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-9-575-272-26-0)"
+           font-size="12px">
+            <text x="10.5" y="587.5">+ constructor: Property(Npode childNode)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-9-601-272-26-0)"
+           font-size="12px">
+            <text x="10.5" y="613.5">+ method: Node getNode()</text>
+        </g>
+        <path d="M 395 516 L 395 490 L 655 490 L 655 516" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 395 516 L 395 550 L 655 550 L 655 516" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 395 516 L 655 516" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="524.5" y="507.5">DataProperty</text>
+        </g>
+        <path d="M 395 520 L 655 520" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-399-529-252-26-0)"
+           font-size="12px">
+            <text x="400.5" y="541.5">+ constructor: DataProperty(Node childNode)</text>
+        </g>
+        <path d="M 395 606 L 395 580 L 655 580 L 655 606" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 395 606 L 395 640 L 655 640 L 655 606" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 395 606 L 655 606" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="524.5" y="597.5">ObjectProperty</text>
+        </g>
+        <path d="M 395 610 L 655 610" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-399-619-252-26-0)"
+           font-size="12px">
+            <text x="400.5" y="631.5">+ constructor: ObjectProperty(Node childNode)</text>
+        </g>
+        <path d="M 395 505 L 304.57 526.81" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 288.05 530.79 L 302.58 518.55 L 306.57 535.07 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 518px; margin-left: 341px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                Extends
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="341" y="521" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Extends
+                </text>
+            </switch>
+        </g>
+        <path d="M 395 595 L 303.01 584.96" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 286.11 583.12 L 303.93 576.51 L 302.09 593.41 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 589px; margin-left: 339px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; background-color: #ffffff; white-space: nowrap; ">
+                                Extends
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="339" y="592" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Extends
+                </text>
+            </switch>
+        </g>
+        <path d="M 75 510 L 75 480 Q 75 470 65 470 L 35 470 Q 25 470 25 460 L 25 119 Q 25 109 32.01 109 L 39.01 109"
+              fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 64.01 109 L 51.51 116.35 L 39.01 109 L 51.51 101.65 Z" fill="none" stroke="#000000"
+              stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="485" y="670" width="160" height="30" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 685px; margin-left: 565px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                «interface»
+                                <br/>
+                                <b>Printer</b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="565" y="689" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «interface»...
+                </text>
+            </switch>
+        </g>
+        <rect x="485" y="700" width="160" height="20" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 710px; margin-left: 565px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                method: void print(T obj)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="565" y="714" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    method: void print(T obj)
+                </text>
+            </switch>
+        </g>
+        <path d="M 565 750 L 565 734.12" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3"
+              pointer-events="none"/>
+        <path d="M 565 721.12 L 571.5 734.12 L 558.5 734.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 445 776 L 445 750 L 685 750 L 685 776" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 445 776 L 445 836 L 685 836 L 685 776" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 445 776 L 685 776" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="564.5" y="767.5">GraphPrinter</text>
+        </g>
+        <path d="M 445 780 L 685 780" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-449-789-232-26-0)"
+           font-size="12px">
+            <text x="450.5" y="801.5">+ constructor: GraphPrintr()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-449-815-232-26-0)"
+           font-size="12px">
+            <text x="450.5" y="827.5">method: void print(ContainerNode node)</text>
+        </g>
+        <rect x="825" y="474" width="620" height="30" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 489px; margin-left: 1135px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                «interface»
+                                <br/>
+                                <b>Builder</b>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1135" y="493" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    «interface»...
+                </text>
+            </switch>
+        </g>
+        <rect x="825" y="504" width="620" height="20" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 514px; margin-left: 1135px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                method: ContainerNode reset(String data)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1135" y="518" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    method: ContainerNode reset(String data)
+                </text>
+            </switch>
+        </g>
+        <rect x="825" y="524" width="620" height="20" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 534px; margin-left: 1135px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                method: ContainerNode toClassNodeAddClassNode(ContainerNode srcNode, String childData)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1135" y="538" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    method: ContainerNode toClassNodeAddClassNode(ContainerNode srcNode, String childData)
+                </text>
+            </switch>
+        </g>
+        <rect x="825" y="544" width="620" height="20" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 554px; margin-left: 1135px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                method: ContainerNode toClassNodeAddIndividualNode(ContainerNode srcNode, String
+                                childData)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1135" y="558" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    method: ContainerNode toClassNodeAddIndividualNode(ContainerNode srcNode, String childData)
+                </text>
+            </switch>
+        </g>
+        <rect x="825" y="564" width="620" height="20" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%"
+                               height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                         style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 574px; margin-left: 1135px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                method: ContainerNode toIndividualNodeAddAttributeNode(ContainerNode srcNode, String
+                                atrData, String value)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1135" y="578" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    method: ContainerNode toIndividualNodeAddAttributeNode(ContainerNode srcNode, String atrData, String
+                    va...
+                </text>
+            </switch>
+        </g>
+        <path d="M 825 650 L 825 624 L 1445 624 L 1445 650" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 825 650 L 825 762 L 1445 762 L 1445 650" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 825 650 L 1445 650" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="1134.5" y="641.5">GraphBuilder</text>
+        </g>
+        <path d="M 825 654 L 1445 654" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-829-663-612-26-0)"
+           font-size="12px">
+            <text x="830.5" y="675.5">+ method: ContainerNode reset(String data)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-829-689-612-26-0)"
+           font-size="12px">
+            <text x="830.5" y="701.5">+ method: ContainerNode toClassNodeAddClassNode(ContainerNode srcNode, String
+                childData)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-829-715-612-26-0)"
+           font-size="12px">
+            <text x="830.5" y="727.5">+ method: ContainerNode toClassNodeAddIndividualNode(ContainerNode srcNode, String
+                childData)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-829-741-612-26-0)"
+           font-size="12px">
+            <text x="830.5" y="753.5">method: ContainerNode toIndividualNodeAddAttributeNode(ContainerNode srcNode,
+                String atrData, String value)
+            </text>
+        </g>
+        <path d="M 1135 624 L 1135 598.12" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3"
+              pointer-events="none"/>
+        <path d="M 1135 585.12 L 1141.5 598.12 L 1128.5 598.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 15 696 L 15 670 L 335 670 L 335 696" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 15 696 L 15 782 L 335 782 L 335 696" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 15 696 L 335 696" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="174.5" y="687.5">Director</text>
+        </g>
+        <path d="M 15 700 L 335 700" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-19-709-312-26-0)"
+           font-size="12px">
+            <text x="20.5" y="721.5">- method: printSeparator()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-19-735-312-26-0)"
+           font-size="12px">
+            <text x="20.5" y="747.5">- method: printNodeInfo(Node node)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-19-761-312-26-0)"
+           font-size="12px">
+            <text x="20.5" y="773.5">+ method: Optional&lt;ContainerNode&gt; build(Builder builder)</text>
+        </g>
+        <path d="M 895 130 L 895 104 L 1375 104 L 1375 130" fill="#ffffff" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 895 130 L 895 450 L 1375 450 L 1375 130" fill="none" stroke="#000000" stroke-miterlimit="10"
+              pointer-events="none"/>
+        <path d="M 895 130 L 1375 130" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle"
+           font-size="12px">
+            <text x="1134.5" y="121.5">BuilderLoggerAspect</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-135-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="147.5">- field: String grahpbuildPrefix</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-161-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="173.5">- field: Logger LOGGER</text>
+        </g>
+        <path d="M 895 186 L 1375 186" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-195-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="207.5">+ method: void beforeResetLogger(JoinPoint joinPoint)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-221-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="233.5">+ method: void afterResetLogger(ContainerNode node)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-247-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="259.5">+ method: void beforeToClassNodeAddClassNodeLogger(JoinPoint joinPoint)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-273-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="285.5">+ method: void afterToClassNodeAddClassNodeLogger(ContainerNode node)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-299-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="311.5">+ method: void beforeToClassNodeAddIndividualNodeogger(JoinPoint joinPoint)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-325-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="337.5">+ method: void afterToClassNodeAddindividualNodeLogger(ContainerNode node)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-351-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="363.5">+ method: void beforeToindividaulNodeAddIAttributelNodeLogger(JoinPoint
+                joinPoint)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-377-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="389.5">+ method: void afterToindividaulNodeAddIAttributelNodeLogger(ContainerNode node)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-403-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="415.5">+ method: void beforeBuildingGraphLogger(JoinPoint joinPoint)</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-899-429-472-26-0)"
+           font-size="12px">
+            <text x="900.5" y="441.5">+ method: void afterbuildingGraphLogger(Optional&lt;ContainerNode&gt; nodeOpt)
+            </text>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems"
+           target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">Viewer does not support full SVG 1.1</text>
+        </a>
+    </switch>
+</svg>
