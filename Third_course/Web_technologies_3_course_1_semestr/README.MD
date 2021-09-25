@@ -5,7 +5,7 @@
 Дисциплина: Web-Технологии  
 Преподаватель: Скорынин Сергей Сергеевич  
 
-+ **Лабораторная работа 1.** [Введение в JavaScript.Программное взаимодействие с HTML документами на основе DOM API.](https://github.com/progerSapog/Institute/tree/main/Third_course/Web_technologies_3_course_1_semestr/LW1 "1ая лабораторная работа")  
++ **Лабораторная работа 1.** [Введение в JavaScript. Программное взаимодействие с HTML документами на основе DOM API.](https://github.com/progerSapog/Institute/tree/main/Third_course/Web_technologies_3_course_1_semestr/LW1 "1ая лабораторная работа")  
 
      **Стэк технологий:**
 
