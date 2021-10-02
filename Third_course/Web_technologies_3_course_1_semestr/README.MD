@@ -11,4 +11,16 @@
 
      + HTML5
      + CSS3
-     + JS 
+     + JS  
+
+*ЛР2 и ЛР3 приняты вместе по одной программе и отчету
++ **Лабораторная работа 2.** [Написание веб-сервиса согласно паттерну MVC](https://github.com/progerSapog/Institute/tree/main/Third_course/Web_technologies_3_course_1_semestr/LW2)  
++ **Лабораторная работа 2.** [Написание веб-сервиса согласно паттерну MVC с использованием ORM Entity](https://github.com/progerSapog/Institute/tree/main/Third_course/Web_technologies_3_course_1_semestr/LW2)  
+     
+     **Стэк технологий:**
+
+     + HTML5
+     + CSS3
+     + Spring Boot 2.5.5 (JPA, JDBC, Validator, devtools, postgres, thymeleaf)
+     + Шаблонизатор Thymeleaf
+     + Postgres (docker container)
