@@ -13,7 +13,7 @@
      + CSS3
      + JS  
 
-*ЛР2 и ЛР3 приняты вместе по одной программе и отчету
+_ЛР2 и ЛР3 приняты вместе по одной программе и отчету_
 + **Лабораторная работа 2.** [Написание веб-сервиса согласно паттерну MVC](https://github.com/progerSapog/Institute/tree/main/Third_course/Web_technologies_3_course_1_semestr/LW2)  
 + **Лабораторная работа 2.** [Написание веб-сервиса согласно паттерну MVC с использованием ORM Entity](https://github.com/progerSapog/Institute/tree/main/Third_course/Web_technologies_3_course_1_semestr/LW2)  
      
