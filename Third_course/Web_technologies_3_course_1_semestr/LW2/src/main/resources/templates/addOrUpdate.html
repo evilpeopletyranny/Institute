@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 2. </title>
+
+    <meta name="description" content="Лабораторная работа 2. Создание просто веб-сервиса
+    согласно паттерну MVC.">
+    <meta name="author" content="Сапожников В.О. 19-В-1">
+
+    <!-- Сброс css стилей для браузеров -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
+
+    <!-- подключение нашего css -->
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div th:if="${allNewsListSize >= 50}">
+        <script>
+            alert("Превышен лимит записей!")
+        </script>
+        <input type="hidden" name="sizeNewsList" th:value="${allNewsListSize}">
+        <meta http-equiv = "refresh" content = "0; url = http://localhost:8080/laboratory_work/news"/>
+    </div>
+    <section class="update_or_delete">
+        <div class="header">
+            <div th:if="${newsForm.id != null}">
+                <div class="message">
+                    <span>Изменить запись</span>
+                </div>
+            </div>
+            <div th:unless="${newsForm.id != null}">
+                <div class="message">
+                    <span>Добавить запись</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="input_form">
+            <form th:action="@{/laboratory_work/add}" method="post">
+                <div th:if="${newsForm.id != null}">
+                    <input type="hidden" th:field="${newsForm.id}">
+                </div>
+
+                <div class="input_text">
+                    <div class="field_error" th:if="${#fields.hasErrors('newsForm.title')}" th:errors="*{newsForm.title}"></div>
+
+                    <span class="title">Заголовок: </span>
+                    <div class="input_field">
+                        <input type="text" th:field="${newsForm.title}">
+                    </div>
+                </div>
+
+                <div class="input_text">
+                    <div class="field_error" th:if="${#fields.hasErrors('newsForm.content')}" th:errors="*{newsForm.content}"></div>
+
+                    <span class="content">Текст: </span>
+                        <div class="field_error">
+                            <textarea type="text" th:field="${newsForm.content}"></textarea>
+                        </div>
+                </div>
+
+                <div class="input_text">
+                    <div class="field_error" th:if="${#fields.hasErrors('newsForm.author')}" th:errors="*{newsForm.author}"></div>
+
+                    <span class="author">Автор: </span>
+                        <div class="input_field">
+                            <input type="text" th:field="${newsForm.author}">
+                        </div>
+                </div>
+
+                <div class="buttons" th:if="${newsForm.id != null}">
+                    <button class="change, add" type="submit">изменить</button>
+                </div>
+                <div class="buttons" th:unless="${newsForm.id != null}">
+                    <button class="change, add" type="submit">добавить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

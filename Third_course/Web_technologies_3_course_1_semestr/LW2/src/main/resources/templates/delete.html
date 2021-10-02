@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 2.</title>
+
+    <meta name="description" content="Лабораторная работа 2. Создание просто веб-сервиса
+    согласно паттерну MVC.">
+    <meta name="author" content="Сапожников В.О. 19-В-1">
+
+    <!-- Сброс css стилей для браузеров -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
+
+    <!-- подключение нашего css -->
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <section class="delete">
+        <div class="header">
+            <div class="message">
+                <span>Удалить запись</span>
+            </div>
+        </div>
+
+        <form th:action="@{/laboratory_work/delete}" method="post">
+            <input type="hidden" name="newsId" th:value="${newsForm.id}">
+
+            <div class="text_form">
+                <form th:action="@{/laboratory_work/add}" method="post">
+                    <div th:if="${newsForm.id != null}">
+                        <input type="hidden" th:field="${newsForm.id}">
+                    </div>
+
+                    <div class="text">
+                        <span class="title">Заголовок: </span>
+                        <div class="inner_text">
+                                <span th:text="${newsForm.title}"></span>
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="content">Текст: </span>
+                        <div class="inner_text">
+                                <span th:text="${newsForm.content}"></span>
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="author">Автор: </span>
+                        <div class="inner_text">
+                                <span th:text="${newsForm.author}"></span>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="delete" type="submit">Удалить</button>
+                        <button class="change, add" type="button">
+                            <a th:href="@{/laboratory_work/news}">Отмена</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </form>
+
+
+
+    </section>
+</body>
+</html>

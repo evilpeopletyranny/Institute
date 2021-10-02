@@ -1,0 +1,17 @@
+# Подключение к БД
+spring:
+  datasource:
+    # чем подключаемся/какой порт/какая БД
+    url: jdbc:postgresql://localhost:5432/web_technology
+
+    # Имя и пароль юзера
+    username: TEST_USER
+    password: TEST_USER1
+
+    # Драйвер подключения
+    driver-class-name: org.postgresql.Driver
+
+  # указываем тим СУБД и ее "диалект"
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect

@@ -1,0 +1,396 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+/* Блок контейнер, содержащий все элементы
+    сайта */
+.container {
+    position: relative;
+    width: 1080px;  
+    
+    /* Выравнивание блочного элемента по центру */
+    margin: 0 auto; 
+}
+
+.introduction {
+    min-height: 650px;
+
+    /* Подключение фото в качестве заднего фона 
+    linear-gradient - затемненение фото при помощи градиента
+    center center   - центрирование по ширине, высоте
+    cover           - растянуть на заданый объем
+    no-repeat       - не повторять */
+    background: linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .70)), url('../image/bg/intoduction_bg.jpg') center center / cover no-repeat;
+}
+
+.logo .logo_img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.logo .logo_text span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.about .about_me {
+    width: 200px;
+}
+
+.about .about_me .about_me_text {
+
+    margin-top: 10px;
+    min-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.about .about_me .avatar {
+    display: block;
+    border-radius: 100%;
+}
+
+.about_me .links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_me .links * img {
+    width: 45px;
+    height: 45px;
+}
+
+.about .about_task {
+    width: 700px;
+}
+
+.about .about_task h1 {  
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about .about_task .task_text {  
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    text-indent: 1.5em;
+}
+
+.about .about_task .task_text span {
+    font-weight: 400;
+}
+
+.about .about_task .task_text .task_text_list {
+    min-height: 300px;
+    padding-left: 50px;
+}
+
+.about .about_task .task_text .task_text_list ul {
+    display: inline-block;
+}
+
+.about .about_task .task_text .task_text_list ul:first-child {
+    padding-top: 10px;
+}
+
+.about .about_task .task_text .task_text_list li {
+    padding: 5px 0;
+}
+
+.news {
+    padding-top: 60px;
+    min-height: 600px;
+}
+
+.news .logotype {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+    text-align: justify;
+    height: 100px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #e30000;
+}
+
+.news .logotype .main_text {
+    margin-left: 130px;
+    width: 400px;
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.news .logotype .sub_text {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.news .news_list .no_news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color: grey;
+    height: 200px;
+}
+
+.news .news_list .list_item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 15px 0;
+    min-height: 110px;
+    background-color: rgba(219, 176, 176, 0.41);
+    border-radius: 15px;
+}
+
+.news .news_list .list_item .list_item_title, .list_item_text, .list_item_author {
+    width: 100%;
+}
+
+.news .news_list .list_item .list_item_title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-align: left;
+    font-size: 24px;
+    height: 25px;
+    margin: 10px 0 0 10px;
+}
+
+.news .news_list .list_item .list_item_title span {
+    text-decoration: underline;
+}
+
+
+.news .news_list .list_item .list_item_text {
+    min-height: 60px;
+    margin: 10px 20px 0 20px;
+}
+
+.news .news_list .list_item .list_item_author {
+    text-align: right;
+    min-height: 25px;
+    margin: 10px 10px 10px 0;
+    font-style: italic;
+}
+
+.news .news_list .list_item .list_item_title .buttons {
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+.buttons * {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.buttons .delete {
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #F64C2B;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+}
+
+.news .news_list .list_item .list_item_title .buttons .change {
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #7cf62b;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #128800;
+    background: linear-gradient(#bffb75, #93f438 48%, #02ea15 52%, #54f017);
+}
+
+.news .add_button {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.add {
+    height: 27px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #7cf62b;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #128800;
+    background: linear-gradient(#bffb75, #93f438 48%, #02ea15 52%, #54f017);
+}
+
+a {
+    color: #ffffff;
+}
+
+.update_or_delete .header .message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.update_or_delete .input_form {
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color: rgba(219, 176, 176, 0.41);
+    width: 450px;
+}
+
+.update_or_delete .input_form .input_text span {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+}
+
+.update_or_delete .input_form .input_text {
+    margin: 10px 0 10px 0;
+    width: 320px;
+}
+
+.update_or_delete .input_form .input_text .input_field {
+    display: inline-block;
+    width: 210px;
+}
+
+.update_or_delete .input_form .input_text .input_field input, textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    resize: none;
+}
+
+.update_or_delete .input_form .input_text .input_field input:focus, textarea:focus {
+    outline: none;
+}
+
+.update_or_delete .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete .header .message {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.delete .text_form {
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 300px;
+    background-color: rgba(219, 176, 176, 0.41);
+    width: 450px;
+}
+
+.delete .text_form .text span {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+}
+
+.delete .text_form .text {
+    margin: 10px 0 10px 0;
+    width: 320px;
+}
+
+.delete .text_form .inner_text {
+    display: inline-block;
+    width: 210px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+}
+
+.delete .buttons {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.field_error {
+    color: red;
+}
+
+
+
