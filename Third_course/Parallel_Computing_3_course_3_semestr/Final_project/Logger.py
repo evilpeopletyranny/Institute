@@ -3,54 +3,59 @@ import os
 
 
 class Logger:
-    types = {
-        'INFO': "INFO",
-        'DEBUG': "DEBUG",
-        'ERROR': "ERROR",
-        'WARNING': "WARNING"
-    }
+    """
+    Логер, умеющий делать запись в файл.
+    Использует для записи 'событий' прибора.
+
+    :see Device.py
+    """
 
     def __writeLog(self, message: str):
-        time = datetime.datetime.now()
-        timeStr = str(time.date()) + " " + str(time.time())
+        """
+        'Приватный' метод записи лога в файл.
+        Вызывается в других функциях класса.
 
-        if self.path is None:
-            print(timeStr + message)
-        else:
-            file = open(self.path + ".log", "a")
+        :param message: сообщение для записи
+        :return:
+        """
+
+        # Получение даты и времени
+        time = datetime.datetime.now()
+        timeStr = str(time.date()) + " " + str(time.time()).split(".")[0]
+
+        with open(self.path, "a") as file:
             file.write(timeStr + " " + message + "\n")
-            file.close()
 
     def __deleteOldLogs(self):
-        deleteFlag: bool = False
-
+        """
+         'Приватный' очистки 'тяжелых' log файлов.
+         Если вес лога превышает 1Кб, то удаляем данный файл.
+         Для записи будет создан новый файл.
+        :return:
+        """
         directory = self.path.split('/')[0]
-        print(directory)
-
         for file in os.listdir(directory):
-            if os.path.getsize(directory + "/" + file) > 1024:
-                deleteFlag = True
-                break
+            filePath = directory + "/" + file
+            if os.path.getsize(filePath) > 1024:
+                os.remove(filePath)
 
-        if deleteFlag:
-            for file in os.listdir(directory):
-                os.remove(directory + "/" + file)
-
-    def __init__(self):
-        self.path = None
-
-    def setLogFile(self, path: str):
-        self.path = path
+    def __init__(self, path: str):
+        """
+        Конструктор с параметром
+        :param path: путь для записи лога
+        """
+        self.path = path + ".log"
         self.__deleteOldLogs()
 
+    # Типичные уровни логирования
     def info(self, message: str):
-        self.__writeLog(self.types['INFO'] + " " + message)
+        self.__writeLog('INFO' + " " + message)
 
     def debug(self, message: str):
-        self.__writeLog(self.types['DEBUG'] + " " + message)
+        self.__writeLog('DEBUG' + " " + message)
 
     def error(self, message: str):
-        self.__writeLog(self.types['ERROR'] + " " + message)
+        self.__writeLog('ERROR' + " " + message)
 
     def warn(self, message: str):
-        self.__writeLog(self.types['WARNING'] + " " + message)
+        self.__writeLog('WARNING' + " " + message)
