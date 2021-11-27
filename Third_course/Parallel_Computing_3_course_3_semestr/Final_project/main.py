@@ -1,12 +1,11 @@
 from Device import Device
-from Writer import Writer
-from Reader import Reader
 
 if __name__ == '__main__':
-    device = Device("Прибор №1")
-    writer = Writer("Logs/")
-    reader = Reader("Logs/")
+    devices = list()
 
-    writer.writeLog(device, "начал работу")
+    for i in range(10):
+        devices.append(Device(f"Прибор{i + 1}"))
+        print(devices[i].name)
 
-    reader.readLog()
+    for i in range(10):
+        devices[i].run()
