@@ -22,14 +22,15 @@ class Device:
     # {код события: словесное описание}
     event: dict = {
         100: 'Завершение работы',
-        1: 'Начал измерение',
-        2: 'Проводит измерение',
-        3: 'Анализирует данные',
-        4: 'Фиксирует данные',
-        -1: 'Завершение с ошибкой'
+        1:    'Начал измерение',
+        2:    'Проводит измерение',
+        3:    'Анализирует данные',
+        4:    'Фиксирует данные',
+        -1:   'Завершение с ошибкой',
+        -100: 'Завершение вручную'
     }
 
-    def __init__(self, name):
+    def __init__(self, name, text):
         """
         Конструтор с параметрами.
         При создании прибор находится в состоянии покоя
@@ -39,6 +40,7 @@ class Device:
         self.isWork = False
         self.name = name.split("/")[-1]
         self.logger = Logger(name)
+        self.text = text
 
     def work(self):
         """
@@ -56,7 +58,7 @@ class Device:
         # Так же запускаем поток с Читателем файла логгирования
         # Такой подход позволяет работать с прибором и читать лог
         # не зависимо от других приборов
-        Reader("Logs/" + self.name + ".log").run()
+        Reader("Logs/" + self.name + ".log", self.text).run()
         time.sleep(random.randint(1, 8))
 
         # Цикл имитации работы прибора
@@ -87,4 +89,9 @@ class Device:
 
     def run(self):
         """Запуск потока"""
-        threading.Thread(target=self.work).start()
+        if not self.isWork:
+            threading.Thread(target=self.work).start()
+
+    def turnOff(self):
+        self.isWork = False
+        self.logger.debug(self.name.ljust(10) + ": " + self.event[-100])

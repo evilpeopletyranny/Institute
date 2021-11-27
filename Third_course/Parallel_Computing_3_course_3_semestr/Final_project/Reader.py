@@ -12,12 +12,13 @@ class Reader:
     # при помощи семафора
     readersPool: BoundedSemaphore = BoundedSemaphore(10)
 
-    def __init__(self, path: str):
+    def __init__(self, path: str, text):
         """
         Конструтор с параметром
         :param path: путь к лог файлу для чтения
         """
         self.path = path
+        self.text = text
 
     def read(self):
         """
@@ -41,6 +42,7 @@ class Reader:
                 line = file.readlines()[-1]
                 if lastLine != line:
                     print(line, end='')
+                    self.text.insert('end', line)
                     lastLine = line
 
         # Как только прибор закончил работать освобождаем семафор
