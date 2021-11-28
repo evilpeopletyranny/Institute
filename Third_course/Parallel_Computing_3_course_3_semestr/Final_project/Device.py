@@ -30,7 +30,7 @@ class Device:
         -100: 'Завершение вручную'
     }
 
-    def __init__(self, name, text):
+    def __init__(self, name, outStream):
         """
         Конструтор с параметрами.
         При создании прибор находится в состоянии покоя
@@ -40,7 +40,7 @@ class Device:
         self.isWork = False
         self.name = name.split("/")[-1]
         self.logger = Logger(name)
-        self.text = text
+        self.text = outStream
 
     def work(self):
         """
@@ -51,9 +51,11 @@ class Device:
         """
         self.isWork = True
 
-        # Опускание 1 семафора для данного потока
+        # Обращение к файлу - разделяемому ресурсу
+        # ограждается семафорами
         self.devicesPool.acquire()
-        self.logger.debug(self.name.ljust(10) + ": " + self.event[1])
+        self.logger.system(self.name.ljust(10) + ": " + self.event[1])
+        self.devicesPool.release()
 
         # Так же запускаем поток с Читателем файла логгирования
         # Такой подход позволяет работать с прибором и читать лог
@@ -65,8 +67,12 @@ class Device:
         while self.isWork:
             rand = random.randint(-10, 110)
 
+            # Обращение к файлу - разделяемому ресурсу
+            # ограждается семафорами
+            self.devicesPool.acquire()
+
             if rand < 0:
-                self.logger.debug(self.name.ljust(10) + ": " + self.event[-1])
+                self.logger.error(self.name.ljust(10) + ": " + self.event[-1])
                 self.isWork = False
 
             elif 0 < rand <= 33:
@@ -79,13 +85,12 @@ class Device:
                 self.logger.debug(self.name.ljust(10) + ": " + self.event[4])
 
             else:
-                self.logger.debug(self.name.ljust(10) + ": " + self.event[100])
+                self.logger.system(self.name.ljust(10) + ": " + self.event[100])
                 self.isWork = False
 
-            time.sleep(random.randint(3, 15))
+            self.devicesPool.release()
 
-        # Как только прибор закончил работать освобождаем семафор
-        self.devicesPool.release()
+            time.sleep(random.randint(3, 15))
 
     def run(self):
         """Запуск потока"""
@@ -93,5 +98,9 @@ class Device:
             threading.Thread(target=self.work).start()
 
     def turnOff(self):
+        """
+        Функция выключения прибора
+        :return:
+        """
         self.isWork = False
-        self.logger.debug(self.name.ljust(10) + ": " + self.event[-100])
+        self.logger.warn(self.name.ljust(10) + ": " + self.event[-100])

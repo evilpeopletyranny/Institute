@@ -31,22 +31,21 @@ class Reader:
         """
         lastLine = str()
 
-        # Опускание 1 семафора для данного потока
-        self.readersPool.acquire()
-
         # Цикл пока в строке не встретится 'Завершение',
         # вне зависимости от успешного/аварийного прерывания работы приборы
         # работаем с поледними строками файла
         while not ("Завершение" in lastLine.split(" ")):
+            # Обращение к файлу - разделяемому ресурсу
+            # ограждается семафорами
+            self.readersPool.acquire()
             with open(self.path, 'r') as file:
                 line = file.readlines()[-1]
                 if lastLine != line:
-                    print(line, end='')
                     self.text.insert('end', line)
+                    self.text.see('end')
                     lastLine = line
 
-        # Как только прибор закончил работать освобождаем семафор
-        self.readersPool.release()
+            self.readersPool.release()
 
     def run(self):
         """Запуск потока"""

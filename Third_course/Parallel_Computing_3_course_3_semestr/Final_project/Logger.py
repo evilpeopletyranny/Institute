@@ -28,7 +28,7 @@ class Logger:
 
     def __deleteOldLogs(self):
         """
-         'Приватный' очистки 'тяжелых' log файлов.
+         'Приватный' метод очистки 'тяжелых' log файлов.
          Если вес лога превышает 1Кб, то удаляем данный файл.
          Для записи будет создан новый файл.
         :return:
@@ -47,15 +47,24 @@ class Logger:
         self.path = path + ".log"
         self.__deleteOldLogs()
 
+    def system(self, message: str):
+        """
+        Специальный уровень для логирования
+        начала работы и её удачного завершения
+        :param message:
+        :return:
+        """
+        self.__writeLog('SYSTEM'.ljust(6) + " " + message)
+
     # Типичные уровни логирования
     def info(self, message: str):
-        self.__writeLog('INFO' + " " + message)
+        self.__writeLog('INFO'.ljust(6)  + " " + message)
 
     def debug(self, message: str):
-        self.__writeLog('DEBUG' + " " + message)
+        self.__writeLog('DEBUG'.ljust(6)  + " " + message)
 
     def error(self, message: str):
-        self.__writeLog('ERROR' + " " + message)
+        self.__writeLog('ERROR'.ljust(6)  + " " + message)
 
     def warn(self, message: str):
-        self.__writeLog('WARNING' + " " + message)
+        self.__writeLog('WARNING'.ljust(6)  + " " + message)
