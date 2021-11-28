@@ -1,0 +1,183 @@
+Turbo Assembler	 Version 2.51	     11/23/21 13:44:31	    Page 1
+lab2.asm
+
+
+
+      1				     ;Лабораторная работа №2
+      2				     ;Выполнил студент группы 19-В-1
+      3				     ;Сапожников В.О.
+      4				     ;Многосегментная программа
+      5	0000			     d1	SEGMENT	para public 'DATA'
+      6	0000  0A 0D 4C 61 62 6F	72+	     hello db 10,13, 'Laboratoty work #2', 10, 13, '$'
+      7	      61 74 6F 74 79 20	77+
+      8	      6F 72 6B 20 23 32	0A+
+      9	      0D 24
+     10	0017  0A 0D 49 6E 70 75	74+	     enter_please db 10,13,'Input: ', 10, 13, '$'
+     11	      3A 20 0A 0D 24
+     12	0023  0A 0D 4F 75 74 70	75+	     result db 10,13,'Output: ', 10,13,'$'
+     13	      74 3A 20 0A 0D 24
+     14
+     15	0030  0014 0000	0A*(003F)	     str_in  dw	20, (?), 0Ah dup ("?")
+     16	0048  14*(0020)	0024		     str_out dw	20 dup (' '), '$'
+     17	0072			     d1	ENDS
+     18
+     19				     print macro string	     ;вывод строки
+     20					     push ax
+     21					     push dx
+     22					     mov dx,offset string
+     23					     mov ah,9
+     24					     int 21h
+     25					     pop dx
+     26					     pop ax
+     27				     endm
+     28
+     29				     input macro string	     ;ввод строки
+     30					     push ax
+     31					     push dx
+     32					     mov ah,0ah
+     33					     mov dx,offset string
+     34					     int 21h
+     35					     pop dx
+     36					     pop ax
+     37				     endm
+     38
+     39	0000			     s1	SEGMENT	para 'CODE'
+     40				     assume cs:s1, ds:d1, ss:stack1
+     41	0000			     _main:
+     42	0000  B8 0000s			     mov ax,d1
+     43	0003  8E D8			     mov ds, ax
+     44
+     45					     ;Начало программы
+     46					     print hello
+1    47	0005  50			     push ax
+1    48	0006  52			     push dx
+1    49	0007  BA 0000r			     mov dx,offset hello
+1    50	000A  B4 09			     mov ah,9
+1    51	000C  CD 21			     int 21h
+1    52	000E  5A			     pop dx
+1    53	000F  58			     pop ax
+     54					     print enter_please
+1    55	0010  50			     push ax
+1    56	0011  52			     push dx
+1    57	0012  BA 0017r			     mov dx,offset enter_please
+Turbo Assembler	 Version 2.51	     11/23/21 13:44:31	    Page 2
+lab2.asm
+
+
+
+1    58	0015  B4 09			     mov ah,9
+1    59	0017  CD 21			     int 21h
+1    60	0019  5A			     pop dx
+1    61	001A  58			     pop ax
+     62
+     63					     input str_in
+1    64	001B  50			     push ax
+1    65	001C  52			     push dx
+1    66	001D  B4 0A			     mov ah,0ah
+1    67	001F  BA 0030r			     mov dx,offset str_in
+1    68	0022  CD 21			     int 21h
+1    69	0024  5A			     pop dx
+1    70	0025  58			     pop ax
+     71
+     72	0026  BE 0031r			     mov si, offset str_in  + 1
+     73	0029  BF 0048r			     mov di, offset str_out
+     74
+     75	002C  8A 0C			     mov cl, [si]
+     76	002E  D0 C9			     ror cl, 1	     ;работаем со словами -> счетчик в	2 раза  +
+     77				     меньше
+     78	0030  46			     inc si
+     79
+     80	0031			     _loop:  ;Внешний цикл на кол-во слов
+     81	0031  8B 04			     mov ax, [si]
+     82	0033  51			     push cx	     ;прячем текущий счетчик в стэк
+     83	0034  B9 0010			     mov cx, 16	 ;заводим счетчик	на 16	бит = 2 байта =	слово
+     84	0037  32 DB			     xor bl, bl
+     85
+     86	0039			     _inner_loop:    ;внутренний цикл на 16 бит
+     87	0039  D1 C8			     ror ax,1
+     88	003B  80 D3 00			     adc bl,0
+     89	003E  E2 F9			     loop _inner_loop
+     90
+     91	0040  83 FB 08			     cmp bx, 8		     ;если единиц 8 или больше
+     92	0043  74 04			     je	_next_val    ;то не	записываем слово	и переходим к    +
+     93				     следущему
+     94
+     95	0045  89 05			     mov [di], ax    ;иначе записываем слово
+     96	0047  47			     inc di
+     97	0048  47			     inc di
+     98
+     99	0049			     _next_val:			     ;переход к	следущему слову
+    100	0049  59			     pop cx
+    101	004A  46			     inc si
+    102	004B  46			     inc si
+    103	004C  E2 E3			     loop _loop
+    104
+    105					     print result
+1   106	004E  50			     push ax
+1   107	004F  52			     push dx
+1   108	0050  BA 0023r			     mov dx,offset result
+1   109	0053  B4 09			     mov ah,9
+1   110	0055  CD 21			     int 21h
+1   111	0057  5A			     pop dx
+1   112	0058  58			     pop ax
+    113					     print str_out   ;вывод полученного	значения
+1   114	0059  50			     push ax
+Turbo Assembler	 Version 2.51	     11/23/21 13:44:31	    Page 3
+lab2.asm
+
+
+
+1   115	005A  52			     push dx
+1   116	005B  BA 0048r			     mov dx,offset str_out
+1   117	005E  B4 09			     mov ah,9
+1   118	0060  CD 21			     int 21h
+1   119	0062  5A			     pop dx
+1   120	0063  58			     pop ax
+    121
+    122	0064  CD 21			     int 21h
+    123	0066  B8 4C00			     mov ax,4c00h
+    124	0069  CD 21			     int 21h
+    125	006B			     s1	ENDS
+    126
+    127	0000			     stack1 SEGMENT para stack 'stack'
+    128	0000  64*(????)			     dw	100 dup	(?)
+    129	00C8			     stack1 ends
+    130
+    131				     END _main
+Turbo Assembler	 Version 2.51	     11/23/21 13:44:31	    Page 4
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "11/23/21"
+??FILENAME			  Text	 "lab2	  "
+??TIME				  Text	 "13:44:31"
+??VERSION			  Number 0205
+@CPU				  Text	 0101H
+@CURSEG				  Text	 STACK1
+@FILENAME			  Text	 LAB2
+@WORDSIZE			  Text	 2
+ENTER_PLEASE			  Byte	 D1:0017
+HELLO				  Byte	 D1:0000
+RESULT				  Byte	 D1:0023
+STR_IN				  Word	 D1:0030
+STR_OUT				  Word	 D1:0048
+_INNER_LOOP			  Near	 S1:0039
+_LOOP				  Near	 S1:0031
+_MAIN				  Near	 S1:0000
+_NEXT_VAL			  Near	 S1:0049
+
+Macro Name
+
+INPUT
+PRINT
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+D1				  16  0072 Para	  Public  DATA
+S1				  16  006B Para	  none	  CODE
+STACK1				  16  00C8 Para	  Stack	  STACK
+
