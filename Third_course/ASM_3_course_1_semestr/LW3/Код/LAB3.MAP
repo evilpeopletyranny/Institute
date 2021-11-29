@@ -1,0 +1,9 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 00188H 00189H D1                 DATA
+ 00190H 00257H 000C8H ST1                STACK
+ 00260H 004EAH 0028BH C1                 CODE
+
+Program entry point at 0026:0000
+
