@@ -48,7 +48,7 @@ def startGUI():
 
         buttonOn = tk.Button(win, text='вкл', bg='green',
                              command=devices[i].run)
-        buttonOff = tk.Button(win, text='офф', bg='red',
+        buttonOff = tk.Button(win, text='выкл', bg='red',
                               command=devices[i].turnOff)
 
         buttonOn.grid(row=i, column=3)
