@@ -1,0 +1,2356 @@
+--------[ AIDA64 Extreme ]----------------------------------------------------------------------------------------------
+
+    Версия                                            AIDA64 v6.60.5900/ru
+    Тестовый модуль                                   4.5.865.8-x64
+    Домашняя страница                                 http://www.aida64.com/
+    Тип отчёта                                        Мастер отчётов
+    Компьютер                                         DESKTOP-3RV1MEH
+    Генератор                                         vlads
+    Операционная система                              Microsoft Windows 10 Home Single Language 10.0.19043.1526 (Win10 21H1 May 2021 Update)
+    Дата                                              2022-02-24
+    Время                                             19:48
+
+
+--------[ ЦП ]----------------------------------------------------------------------------------------------------------
+
+    Свойства ЦП:
+      Тип ЦП                                            QuadCore Intel Core i7-4770, 3800 MHz (38 x 100)
+      Псевдоним ЦП                                      Haswell-DT
+      Степпинг ЦП                                       C0
+      Наборы инструкций                                 x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA, AES
+      Исходная частота                                  3400 МГц
+      Мин./макс. множитель ЦП                           8x / 34x
+      Engineering Sample                                Нет
+      Кэш L1 кода                                       32 КБ per core
+      Кэш L1 данных                                     32 КБ per core
+      Кэш L2                                            256 КБ per core  (On-Die, ECC, Full-Speed)
+      Кэш L3                                            8 МБ  (On-Die, ECC, Full-Speed)
+
+    Физическая информация о ЦП:
+      Тип корпуса                                       1150 Contact FC-LGA
+      Размеры корпуса                                   37.5 mm x 37.5 mm
+      Число транзисторов                                1400 млн
+      Технологический процесс                           22 nm, CMOS, Cu, High-K + Metal Gate
+      Размер кристалла                                  177 mm2
+      Типичная мощность                                 84 W
+
+    Производитель ЦП:
+      Фирма                                             Intel Corporation
+      Информация о продукте                             https://ark.intel.com/content/www/us/en/ark/search.html?q=Intel%20Core%20i7-4770
+      Обновление драйверов                              http://www.aida64.com/goto/?p=drvupdates
+
+    Multi CPU:
+      CPU #1                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #2                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #3                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #4                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #5                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #6                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #7                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #8                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+
+    Загрузка ЦП:
+      ЦП 1 / Ядро 1 / SMT 1                             0%
+      ЦП 1 / Ядро 1 / SMT 2                             0%
+      ЦП 1 / Ядро 2 / SMT 1                             0%
+      ЦП 1 / Ядро 2 / SMT 2                             0%
+      ЦП 1 / Ядро 3 / SMT 1                             0%
+      ЦП 1 / Ядро 3 / SMT 2                             0%
+      ЦП 1 / Ядро 4 / SMT 1                             0%
+      ЦП 1 / Ядро 4 / SMT 2                             0%
+
+
+--------[ CPUID ]-------------------------------------------------------------------------------------------------------
+
+    Свойства CPUID:
+      Производитель CPUID                               GenuineIntel
+      Имя ЦП CPUID                                      Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+      Версия CPUID                                      000306C3h
+      Идентификатор марки IA                            00h  (Неизвестно)
+      Идентификатор платформы                           4Ah / MC 02h  (LGA1150)
+      Версия обновления микрокода                       27h
+      SMT / CMP                                         2 / 4
+      Температура Tjmax                                 100 °C  (212 °F)
+      CPU Thermal Design Power (TDP)                    84 W
+      CPU Thermal Design Current (TDC)                  95 A
+      CPU Max Power Limit                               Unlimited Power / Unlimited Time
+      CPU Power Limit 1 (Long Duration)                 84 W / 8.00 sec  (Unlocked)
+      CPU Power Limit 2 (Short Duration)                105 W / 2.44 ms  (Unlocked)
+      Max Turbo Boost Multipliers                       1C: 39x, 2C: 39x, 3C: 38x, 4C: 37x
+
+    Наборы инструкций:
+      64-разрядное x86-расширение (AMD64, Intel64)      Поддерживается
+      AMD 3DNow!                                        Не поддерживается
+      AMD 3DNow! Professional                           Не поддерживается
+      AMD 3DNowPrefetch                                 Не поддерживается
+      AMD Enhanced 3DNow!                               Не поддерживается
+      AMD Extended MMX                                  Не поддерживается
+      AMD FMA4                                          Не поддерживается
+      AMD MisAligned SSE                                Не поддерживается
+      AMD SSE4A                                         Не поддерживается
+      AMD XOP                                           Не поддерживается
+      Cyrix Extended MMX                                Не поддерживается
+      Enhanced REP MOVSB/STOSB                          Поддерживается
+      Enqueue Stores                                    Не поддерживается
+      Galois Field New Instructions (GFNI)              Не поддерживается
+      Float-16 Conversion Instructions                  Поддерживается, Разрешено
+      IA-64                                             Не поддерживается
+      IA AES Extensions                                 Поддерживается
+      IA AMX-BF16                                       Не поддерживается
+      IA AMX-INT8                                       Не поддерживается
+      IA AMX Tile Architecture (AMX-TILE)               Не поддерживается
+      IA AVX                                            Поддерживается, Разрешено
+      IA AVX2                                           Поддерживается, Разрешено
+      IA AVX-512 (AVX512F)                              Не поддерживается
+      IA AVX-512 4x Fused Multiply-Add Single Precision (AVX512_4FMAPS)Не поддерживается
+      IA AVX-512 4x Neural Network Instructions (AVX512_4VNNIW)Не поддерживается
+      IA AVX-512 52-bit Integer Multiply-Add Instructions (AVX512_IFMA)Не поддерживается
+      IA AVX-512 BF16 (AVX512_BF16)                     Не поддерживается
+      IA AVX-512 Bit Algorithm (AVX512_BITALG)          Не поддерживается
+      IA AVX-512 Byte and Word Instructions (AVX512BW)  Не поддерживается
+      IA AVX-512 Conflict Detection Instructions (AVX512CD)Не поддерживается
+      IA AVX-512 Doubleword and Quadword Instructions (AVX512DQ)Не поддерживается
+      IA AVX-512 Exponential and Reciprocal Instructions (AVX512ER)Не поддерживается
+      IA AVX-512 FP16 (AVX512_FP16)                     Не поддерживается
+      IA AVX-512 Intersection (AVX512_VP2INTERSECT)     Не поддерживается
+      IA AVX-512 Neural Network Instructions (AVX512_VNNI)Не поддерживается
+      IA AVX-512 Prefetch Instructions (AVX512PF)       Не поддерживается
+      IA AVX-512 Vector Bit Manipulation Instructions (AVX512_VBMI)Не поддерживается
+      IA AVX-512 Vector Bit Manipulation Instructions 2 (AVX512_VBMI2)Не поддерживается
+      IA AVX-512 Vector Length Extensions (AVX512VL)    Не поддерживается
+      IA AVX-512 VPOPCNTDQ                              Не поддерживается
+      IA AVX Vector Neural Network Instructions (AVX-VNNI)Не поддерживается
+      IA BMI1                                           Поддерживается
+      IA BMI2                                           Поддерживается
+      IA FMA                                            Поддерживается, Разрешено
+      IA MMX                                            Поддерживается
+      IA SHA Extensions                                 Не поддерживается
+      IA SSE                                            Поддерживается
+      IA SSE2                                           Поддерживается
+      IA SSE3                                           Поддерживается
+      IA Supplemental SSE3                              Поддерживается
+      IA SSE4.1                                         Поддерживается
+      IA SSE4.2                                         Поддерживается
+      Vector AES (VAES)                                 Не поддерживается
+      VIA Alternate Instruction Set                     Не поддерживается
+      Инструкция ADCX / ADOX                            Не поддерживается
+      Инструкция CLDEMOTE                               Не поддерживается
+      Инструкция CLFLUSH                                Поддерживается
+      Инструкция CLFLUSHOPT                             Не поддерживается
+      Инструкция CLWB                                   Не поддерживается
+      Инструкция CLZERO                                 Не поддерживается
+      Инструкция CMPXCHG8B                              Поддерживается
+      Инструкция CMPXCHG16B                             Поддерживается
+      Инструкция Conditional Move                       Поддерживается
+      Инструкция Fast Short CMPSB & SCASB               Не поддерживается
+      Инструкция Fast Short REP MOV                     Не поддерживается
+      Инструкция Fast Short STOSB                       Не поддерживается
+      Инструкция Fast Zero-Length MOVSB                 Не поддерживается
+      Инструкция HRESET                                 Не поддерживается
+      Инструкция INVLPGB                                Не поддерживается
+      Инструкция INVPCID                                Поддерживается
+      Инструкция LAHF / SAHF                            Поддерживается
+      Инструкция LZCNT                                  Поддерживается
+      Инструкция MCOMMIT                                Не поддерживается
+      Инструкция MONITOR / MWAIT                        Поддерживается
+      Инструкция MONITORX / MWAITX                      Не поддерживается
+      Инструкция MOVBE                                  Поддерживается
+      Инструкция MOVDIR64B                              Не поддерживается
+      Инструкция MOVDIRI                                Не поддерживается
+      Инструкция PCLMULQDQ                              Поддерживается
+      Инструкция PCOMMIT                                Не поддерживается
+      Инструкция PCONFIG                                Не поддерживается
+      Инструкция POPCNT                                 Поддерживается
+      Инструкция PREFETCHWT1                            Не поддерживается
+      Инструкция PTWRITE                                Не поддерживается
+      Инструкция RDFSBASE / RDGSBASE / WRFSBASE / WRGSBASEПоддерживается
+      Инструкция RDPRU                                  Не поддерживается
+      Инструкция RDRAND                                 Поддерживается
+      Инструкция RDSEED                                 Не поддерживается
+      Инструкция RDTSCP                                 Поддерживается
+      Инструкция SKINIT / STGI                          Не поддерживается
+      Инструкция SYSCALL / SYSRET                       Не поддерживается
+      Инструкция SYSENTER / SYSEXIT                     Поддерживается
+      Trailing Bit Manipulation Instructions            Не поддерживается
+      Инструкция VIA FEMMS                              Не поддерживается
+      Инструкция VPCLMULQDQ                             Не поддерживается
+      Инструкция WBNOINVD                               Не поддерживается
+
+    Функции безопасности:
+      Advanced Cryptography Engine (ACE)                Не поддерживается
+      Advanced Cryptography Engine 2 (ACE2)             Не поддерживается
+      Control-flow Enforcement Technology - Indirect Branch Tracking (CET_IBT)Не поддерживается
+      Control-flow Enforcement Technology - Shadow Stack (CET_SS)Не поддерживается
+      Запрет исполнения данных (DEP, NX, EDB)           Поддерживается
+      Enhanced Indirect Branch Restricted Speculation   Не поддерживается
+      Hardware Random Number Generator (RNG)            Не поддерживается
+      Hardware Random Number Generator 2 (RNG2)         Не поддерживается
+      Indirect Branch Predictor Barrier (IBPB)          Поддерживается
+      Indirect Branch Restricted Speculation (IBRS)     Поддерживается
+      Key Locker                                        Не поддерживается
+      L1D Flush                                         Поддерживается
+      MD_CLEAR                                          Поддерживается
+      Memory Protection Extensions (MPX)                Не поддерживается
+      PadLock Hash Engine (PHE)                         Не поддерживается
+      PadLock Hash Engine 2 (PHE2)                      Не поддерживается
+      PadLock Montgomery Multiplier (PMM)               Не поддерживается
+      PadLock Montgomery Multiplier 2 (PMM2)            Не поддерживается
+      Серийный номер процессора (PSN)                   Не поддерживается
+      Protection Keys for Supervisor-Mode Pages (PKS)   Не поддерживается
+      Protection Keys for User-Mode Pages (PKU)         Не поддерживается
+      Read Processor ID (RDPID)                         Не поддерживается
+      Safer Mode Extensions (SMX)                       Поддерживается
+      Secure Memory Encryption (SME)                    Не поддерживается
+      SGX Launch Configuration (SGX_LC)                 Не поддерживается
+      Software Guard Extensions (SGX)                   Не поддерживается
+      Single Thread Indirect Branch Predictors (STIBP)  Поддерживается
+      Speculative Store Bypass Disable (SSBD)           Поддерживается
+      SRBDS_CTRL                                        Не поддерживается
+      Supervisor Mode Access Prevention (SMAP)          Не поддерживается
+      Supervisor Mode Execution Protection (SMEP)       Поддерживается
+      Total Memory Encryption (TME)                     Не поддерживается
+      User-Mode Instruction Prevention (UMIP)           Не поддерживается
+
+    Функции электропитания:
+      APM Power Reporting                               Не поддерживается
+      Application Power Management (APM)                Не поддерживается
+      Automatic Clock Control                           Поддерживается
+      Configurable TDP (cTDP)                           Не поддерживается
+      Connected Standby                                 Не поддерживается
+      Core C6 State (CC6)                               Не поддерживается
+      Digital Thermometer                               Поддерживается
+      Dynamic FSB Frequency Switching                   Не поддерживается
+      Enhanced Halt State (C1E)                         Поддерживается, Разрешено
+      Enhanced SpeedStep Technology (EIST, ESS)         Поддерживается, Разрешено
+      Frequency ID Control                              Не поддерживается
+      Hardware P-State Control                          Не поддерживается
+      Hardware Thermal Control (HTC)                    Не поддерживается
+      LongRun                                           Не поддерживается
+      LongRun Table Interface                           Не поддерживается
+      Overstress                                        Не поддерживается
+      Package C6 State (PC6)                            Не поддерживается
+      Parallax                                          Не поддерживается
+      PowerSaver 1.0                                    Не поддерживается
+      PowerSaver 2.0                                    Не поддерживается
+      PowerSaver 3.0                                    Не поддерживается
+      Processor Duty Cycle Control                      Поддерживается
+      Running Average Power Limit (RAPL)                Не поддерживается
+      Software Thermal Control                          Не поддерживается
+      SpeedShift (SST, HWP)                             Не поддерживается
+      Термодиод                                         Не поддерживается
+      Thermal Monitor 1                                 Поддерживается
+      Thermal Monitor 2                                 Поддерживается
+      Thermal Monitor 3                                 Не поддерживается
+      Thermal Monitoring                                Не поддерживается
+      Thermal Trip                                      Не поддерживается
+      Voltage ID Control                                Не поддерживается
+
+    Функции виртуализации:
+      AMD Virtual Interrupt Controller (AVIC)           Не поддерживается
+      Decode Assists                                    Не поддерживается
+      Encrypted Microcode Patch                         Не поддерживается
+      Encrypted State (SEV-ES)                          Не поддерживается
+      Extended Page Table (EPT)                         Поддерживается
+      Flush by ASID                                     Не поддерживается
+      Guest Mode Execute Trap Extension (GMET)          Не поддерживается
+      Hypervisor                                        Нет
+      Инструкция INVEPT                                 Поддерживается
+      Инструкция INVVPID                                Поддерживается
+      LBR Virtualization                                Не поддерживается
+      Memory Bandwidth Enforcement (MBE)                Не поддерживается
+      Nested Paging (NPT, RVI)                          Не поддерживается
+      NRIP Save (NRIPS)                                 Не поддерживается
+      PAUSE Filter Threshold                            Не поддерживается
+      PAUSE Intercept Filter                            Не поддерживается
+      Secure Encrypted Virtualization (SEV)             Не поддерживается
+      Secure Virtual Machine (SVM, Pacifica)            Не поддерживается
+      SVM Lock (SVML)                                   Не поддерживается
+      Virtual Transparent Encryption (VTE)              Не поддерживается
+      Virtualized GIF (vGIF)                            Не поддерживается
+      Virtualized VMLOAD and VMSAVE                     Не поддерживается
+      Virtual Machine Extensions (VMX, Vanderpool)      Поддерживается
+      Virtual Processor ID (VPID)                       Поддерживается
+      VMCB Clean Bits                                   Не поддерживается
+
+    Функции CPUID:
+      1 GB Page Size                                    Поддерживается
+      36-bit Page Size Extension                        Поддерживается
+      5-Level Paging                                    Не поддерживается
+      64-bit DS Area                                    Поддерживается
+      Adaptive Overclocking                             Не поддерживается
+      Address Region Registers (ARR)                    Не поддерживается
+      Code and Data Prioritization Technology (CDP)     Не поддерживается
+      Core Performance Boost (CPB)                      Не поддерживается
+      Core Performance Counters                         Не поддерживается
+      CPL Qualified Debug Store                         Поддерживается
+      Data Breakpoint Extension                         Не поддерживается
+      Debug Trace Store                                 Поддерживается
+      Debugging Extension                               Поддерживается
+      Deprecated FPU CS and FPU DS                      Поддерживается
+      Direct Cache Access                               Не поддерживается
+      Dynamic Acceleration Technology (IDA)             Не поддерживается
+      Dynamic Configurable TDP (DcTDP)                  Не поддерживается
+      Enhanced Hardware Feedback Interface (EHFI)       Не поддерживается
+      Extended APIC Register Space                      Не поддерживается
+      Fast Save & Restore                               Поддерживается
+      Hardware Feedback Interface (HFI)                 Не поддерживается
+      Hardware Lock Elision (HLE)                       Не поддерживается
+      Hybrid Boost                                      Не поддерживается
+      Hybrid CPU                                        Не поддерживается
+      Hyper-Threading Technology (HTT)                  Поддерживается, Разрешено
+      Instruction Based Sampling                        Не поддерживается
+      Invariant Time Stamp Counter                      Поддерживается
+      L1 Context ID                                     Не поддерживается
+      L2I Performance Counters                          Не поддерживается
+      Lightweight Profiling                             Не поддерживается
+      Local APIC On Chip                                Поддерживается
+      Machine Check Architecture (MCA)                  Поддерживается
+      Machine Check Exception (MCE)                     Поддерживается
+      Memory Configuration Registers (MCR)              Не поддерживается
+      Memory Protection Range Registers (MPRR)          Не поддерживается
+      Memory Type Range Registers (MTRR)                Поддерживается
+      Model Specific Registers (MSR)                    Поддерживается
+      NB Performance Counters                           Не поддерживается
+      Page Attribute Table (PAT)                        Поддерживается
+      Page Global Extension                             Поддерживается
+      Page Size Extension (PSE)                         Поддерживается
+      Pending Break Event (PBE)                         Поддерживается
+      Performance Time Stamp Counter (PTSC)             Не поддерживается
+      Physical Address Extension (PAE)                  Поддерживается
+      Process Context Identifiers (PCID)                Поддерживается
+      Processor Feedback Interface                      Не поддерживается
+      Processor Trace (PT)                              Не поддерживается
+      Resource Director Technology Allocation (RDT-A)   Не поддерживается
+      Resource Director Technology Monitoring (RDT-M)   Не поддерживается
+      Restricted Transactional Memory (RTM)             Не поддерживается
+      Self-Snoop                                        Поддерживается
+      Time Stamp Counter (TSC)                          Поддерживается
+      Time Stamp Counter Adjust                         Поддерживается
+      TSX Suspend Load Address Tracking                 Не поддерживается
+      Turbo Boost                                       Поддерживается, Разрешено
+      Turbo Boost Max 3.0                               Не поддерживается
+      User Interrupts (UINTR)                           Не поддерживается
+      Virtual Mode Extension                            Поддерживается
+      Watchdog Timer                                    Не поддерживается
+      x2APIC                                            Поддерживается, Разрешено
+      XGETBV / XSETBV OS Enabled                        Поддерживается
+      XSAVE / XRSTOR / XSETBV / XGETBV Extended States  Поддерживается
+      XSAVEOPT                                          Поддерживается
+
+    CPUID Registers (CPU #0):
+      CPUID 00000000                                    0000000D-756E6547-6C65746E-49656E69 [GenuineIntel]
+      CPUID 00000001                                    000306C3-00100800-7FFAFBFF-BFEBFBFF
+      CPUID 00000002                                    76036301-00F0B5FF-00000000-00C10000
+      CPUID 00000003                                    00000000-00000000-00000000-00000000
+      CPUID 00000004                                    1C004121-01C0003F-0000003F-00000000 [SL 00]
+      CPUID 00000004                                    1C004122-01C0003F-0000003F-00000000 [SL 01]
+      CPUID 00000004                                    1C004143-01C0003F-000001FF-00000000 [SL 02]
+      CPUID 00000004                                    1C03C163-03C0003F-00001FFF-00000006 [SL 03]
+      CPUID 00000005                                    00000040-00000040-00000003-00042120
+      CPUID 00000006                                    00000077-00000002-00000009-00000000
+      CPUID 00000007                                    00000000-000027AB-00000000-9C000400 [SL 00]
+      CPUID 00000008                                    00000000-00000000-00000000-00000000
+      CPUID 00000009                                    00000000-00000000-00000000-00000000
+      CPUID 0000000A                                    07300403-00000000-00000000-00000603
+      CPUID 0000000B                                    00000001-00000002-00000100-00000000 [SL 00]
+      CPUID 0000000B                                    00000004-00000008-00000201-00000000 [SL 01]
+      CPUID 0000000C                                    00000000-00000000-00000000-00000000
+      CPUID 0000000D                                    00000007-00000340-00000340-00000000 [SL 00]
+      CPUID 0000000D                                    00000001-00000000-00000000-00000000 [SL 01]
+      CPUID 0000000D                                    00000100-00000240-00000000-00000000 [SL 02]
+      CPUID 80000000                                    80000008-00000000-00000000-00000000
+      CPUID 80000001                                    00000000-00000000-00000021-2C100000
+      CPUID 80000002                                    65746E49-2952286C-726F4320-4D542865 [Intel(R) Core(TM]
+      CPUID 80000003                                    37692029-3737342D-50432030-20402055 [) i7-4770 CPU @ ]
+      CPUID 80000004                                    30342E33-007A4847-00000000-00000000 [3.40GHz]
+      CPUID 80000005                                    00000000-00000000-00000000-00000000
+      CPUID 80000006                                    00000000-00000000-01006040-00000000
+      CPUID 80000007                                    00000000-00000000-00000000-00000100
+      CPUID 80000008                                    00003027-00000000-00000000-00000000
+
+    CPUID Registers (CPU #1 Virtual):
+      CPUID 00000000                                    0000000D-756E6547-6C65746E-49656E69 [GenuineIntel]
+      CPUID 00000001                                    000306C3-01100800-7FFAFBFF-BFEBFBFF
+      CPUID 00000002                                    76036301-00F0B5FF-00000000-00C10000
+      CPUID 00000003                                    00000000-00000000-00000000-00000000
+      CPUID 00000004                                    1C004121-01C0003F-0000003F-00000000 [SL 00]
+      CPUID 00000004                                    1C004122-01C0003F-0000003F-00000000 [SL 01]
+      CPUID 00000004                                    1C004143-01C0003F-000001FF-00000000 [SL 02]
+      CPUID 00000004                                    1C03C163-03C0003F-00001FFF-00000006 [SL 03]
+      CPUID 00000005                                    00000040-00000040-00000003-00042120
+      CPUID 00000006                                    00000077-00000002-00000009-00000000
+      CPUID 00000007                                    00000000-000027AB-00000000-9C000400 [SL 00]
+      CPUID 00000008                                    00000000-00000000-00000000-00000000
+      CPUID 00000009                                    00000000-00000000-00000000-00000000
+      CPUID 0000000A                                    07300403-00000000-00000000-00000603
+      CPUID 0000000B                                    00000001-00000002-00000100-00000001 [SL 00]
+      CPUID 0000000B                                    00000004-00000008-00000201-00000001 [SL 01]
+      CPUID 0000000C                                    00000000-00000000-00000000-00000000
+      CPUID 0000000D                                    00000007-00000340-00000340-00000000 [SL 00]
+      CPUID 0000000D                                    00000001-00000000-00000000-00000000 [SL 01]
+      CPUID 0000000D                                    00000100-00000240-00000000-00000000 [SL 02]
+      CPUID 80000000                                    80000008-00000000-00000000-00000000
+      CPUID 80000001                                    00000000-00000000-00000021-2C100000
+      CPUID 80000002                                    65746E49-2952286C-726F4320-4D542865 [Intel(R) Core(TM]
+      CPUID 80000003                                    37692029-3737342D-50432030-20402055 [) i7-4770 CPU @ ]
+      CPUID 80000004                                    30342E33-007A4847-00000000-00000000 [3.40GHz]
+      CPUID 80000005                                    00000000-00000000-00000000-00000000
+      CPUID 80000006                                    00000000-00000000-01006040-00000000
+      CPUID 80000007                                    00000000-00000000-00000000-00000100
+      CPUID 80000008                                    00003027-00000000-00000000-00000000
+
+    CPUID Registers (CPU #2):
+      CPUID 00000000                                    0000000D-756E6547-6C65746E-49656E69 [GenuineIntel]
+      CPUID 00000001                                    000306C3-02100800-7FFAFBFF-BFEBFBFF
+      CPUID 00000002                                    76036301-00F0B5FF-00000000-00C10000
+      CPUID 00000003                                    00000000-00000000-00000000-00000000
+      CPUID 00000004                                    1C004121-01C0003F-0000003F-00000000 [SL 00]
+      CPUID 00000004                                    1C004122-01C0003F-0000003F-00000000 [SL 01]
+      CPUID 00000004                                    1C004143-01C0003F-000001FF-00000000 [SL 02]
+      CPUID 00000004                                    1C03C163-03C0003F-00001FFF-00000006 [SL 03]
+      CPUID 00000005                                    00000040-00000040-00000003-00042120
+      CPUID 00000006                                    00000077-00000002-00000009-00000000
+      CPUID 00000007                                    00000000-000027AB-00000000-9C000400 [SL 00]
+      CPUID 00000008                                    00000000-00000000-00000000-00000000
+      CPUID 00000009                                    00000000-00000000-00000000-00000000
+      CPUID 0000000A                                    07300403-00000000-00000000-00000603
+      CPUID 0000000B                                    00000001-00000002-00000100-00000002 [SL 00]
+      CPUID 0000000B                                    00000004-00000008-00000201-00000002 [SL 01]
+      CPUID 0000000C                                    00000000-00000000-00000000-00000000
+      CPUID 0000000D                                    00000007-00000340-00000340-00000000 [SL 00]
+      CPUID 0000000D                                    00000001-00000000-00000000-00000000 [SL 01]
+      CPUID 0000000D                                    00000100-00000240-00000000-00000000 [SL 02]
+      CPUID 80000000                                    80000008-00000000-00000000-00000000
+      CPUID 80000001                                    00000000-00000000-00000021-2C100000
+      CPUID 80000002                                    65746E49-2952286C-726F4320-4D542865 [Intel(R) Core(TM]
+      CPUID 80000003                                    37692029-3737342D-50432030-20402055 [) i7-4770 CPU @ ]
+      CPUID 80000004                                    30342E33-007A4847-00000000-00000000 [3.40GHz]
+      CPUID 80000005                                    00000000-00000000-00000000-00000000
+      CPUID 80000006                                    00000000-00000000-01006040-00000000
+      CPUID 80000007                                    00000000-00000000-00000000-00000100
+      CPUID 80000008                                    00003027-00000000-00000000-00000000
+
+    CPUID Registers (CPU #3 Virtual):
+      CPUID 00000000                                    0000000D-756E6547-6C65746E-49656E69 [GenuineIntel]
+      CPUID 00000001                                    000306C3-03100800-7FFAFBFF-BFEBFBFF
+      CPUID 00000002                                    76036301-00F0B5FF-00000000-00C10000
+      CPUID 00000003                                    00000000-00000000-00000000-00000000
+      CPUID 00000004                                    1C004121-01C0003F-0000003F-00000000 [SL 00]
+      CPUID 00000004                                    1C004122-01C0003F-0000003F-00000000 [SL 01]
+      CPUID 00000004                                    1C004143-01C0003F-000001FF-00000000 [SL 02]
+      CPUID 00000004                                    1C03C163-03C0003F-00001FFF-00000006 [SL 03]
+      CPUID 00000005                                    00000040-00000040-00000003-00042120
+      CPUID 00000006                                    00000077-00000002-00000009-00000000
+      CPUID 00000007                                    00000000-000027AB-00000000-9C000400 [SL 00]
+      CPUID 00000008                                    00000000-00000000-00000000-00000000
+      CPUID 00000009                                    00000000-00000000-00000000-00000000
+      CPUID 0000000A                                    07300403-00000000-00000000-00000603
+      CPUID 0000000B                                    00000001-00000002-00000100-00000003 [SL 00]
+      CPUID 0000000B                                    00000004-00000008-00000201-00000003 [SL 01]
+      CPUID 0000000C                                    00000000-00000000-00000000-00000000
+      CPUID 0000000D                                    00000007-00000340-00000340-00000000 [SL 00]
+      CPUID 0000000D                                    00000001-00000000-00000000-00000000 [SL 01]
+      CPUID 0000000D                                    00000100-00000240-00000000-00000000 [SL 02]
+      CPUID 80000000                                    80000008-00000000-00000000-00000000
+      CPUID 80000001                                    00000000-00000000-00000021-2C100000
+      CPUID 80000002                                    65746E49-2952286C-726F4320-4D542865 [Intel(R) Core(TM]
+      CPUID 80000003                                    37692029-3737342D-50432030-20402055 [) i7-4770 CPU @ ]
+      CPUID 80000004                                    30342E33-007A4847-00000000-00000000 [3.40GHz]
+      CPUID 80000005                                    00000000-00000000-00000000-00000000
+      CPUID 80000006                                    00000000-00000000-01006040-00000000
+      CPUID 80000007                                    00000000-00000000-00000000-00000100
+      CPUID 80000008                                    00003027-00000000-00000000-00000000
+
+    CPUID Registers (CPU #4):
+      CPUID 00000000                                    0000000D-756E6547-6C65746E-49656E69 [GenuineIntel]
+      CPUID 00000001                                    000306C3-04100800-7FFAFBFF-BFEBFBFF
+      CPUID 00000002                                    76036301-00F0B5FF-00000000-00C10000
+      CPUID 00000003                                    00000000-00000000-00000000-00000000
+      CPUID 00000004                                    1C004121-01C0003F-0000003F-00000000 [SL 00]
+      CPUID 00000004                                    1C004122-01C0003F-0000003F-00000000 [SL 01]
+      CPUID 00000004                                    1C004143-01C0003F-000001FF-00000000 [SL 02]
+      CPUID 00000004                                    1C03C163-03C0003F-00001FFF-00000006 [SL 03]
+      CPUID 00000005                                    00000040-00000040-00000003-00042120
+      CPUID 00000006                                    00000077-00000002-00000009-00000000
+      CPUID 00000007                                    00000000-000027AB-00000000-9C000400 [SL 00]
+      CPUID 00000008                                    00000000-00000000-00000000-00000000
+      CPUID 00000009                                    00000000-00000000-00000000-00000000
+      CPUID 0000000A                                    07300403-00000000-00000000-00000603
+      CPUID 0000000B                                    00000001-00000002-00000100-00000004 [SL 00]
+      CPUID 0000000B                                    00000004-00000008-00000201-00000004 [SL 01]
+      CPUID 0000000C                                    00000000-00000000-00000000-00000000
+      CPUID 0000000D                                    00000007-00000340-00000340-00000000 [SL 00]
+      CPUID 0000000D                                    00000001-00000000-00000000-00000000 [SL 01]
+      CPUID 0000000D                                    00000100-00000240-00000000-00000000 [SL 02]
+      CPUID 80000000                                    80000008-00000000-00000000-00000000
+      CPUID 80000001                                    00000000-00000000-00000021-2C100000
+      CPUID 80000002                                    65746E49-2952286C-726F4320-4D542865 [Intel(R) Core(TM]
+      CPUID 80000003                                    37692029-3737342D-50432030-20402055 [) i7-4770 CPU @ ]
+      CPUID 80000004                                    30342E33-007A4847-00000000-00000000 [3.40GHz]
+      CPUID 80000005                                    00000000-00000000-00000000-00000000
+      CPUID 80000006                                    00000000-00000000-01006040-00000000
+      CPUID 80000007                                    00000000-00000000-00000000-00000100
+      CPUID 80000008                                    00003027-00000000-00000000-00000000
+
+    CPUID Registers (CPU #5 Virtual):
+      CPUID 00000000                                    0000000D-756E6547-6C65746E-49656E69 [GenuineIntel]
+      CPUID 00000001                                    000306C3-05100800-7FFAFBFF-BFEBFBFF
+      CPUID 00000002                                    76036301-00F0B5FF-00000000-00C10000
+      CPUID 00000003                                    00000000-00000000-00000000-00000000
+      CPUID 00000004                                    1C004121-01C0003F-0000003F-00000000 [SL 00]
+      CPUID 00000004                                    1C004122-01C0003F-0000003F-00000000 [SL 01]
+      CPUID 00000004                                    1C004143-01C0003F-000001FF-00000000 [SL 02]
+      CPUID 00000004                                    1C03C163-03C0003F-00001FFF-00000006 [SL 03]
+      CPUID 00000005                                    00000040-00000040-00000003-00042120
+      CPUID 00000006                                    00000077-00000002-00000009-00000000
+      CPUID 00000007                                    00000000-000027AB-00000000-9C000400 [SL 00]
+      CPUID 00000008                                    00000000-00000000-00000000-00000000
+      CPUID 00000009                                    00000000-00000000-00000000-00000000
+      CPUID 0000000A                                    07300403-00000000-00000000-00000603
+      CPUID 0000000B                                    00000001-00000002-00000100-00000005 [SL 00]
+      CPUID 0000000B                                    00000004-00000008-00000201-00000005 [SL 01]
+      CPUID 0000000C                                    00000000-00000000-00000000-00000000
+      CPUID 0000000D                                    00000007-00000340-00000340-00000000 [SL 00]
+      CPUID 0000000D                                    00000001-00000000-00000000-00000000 [SL 01]
+      CPUID 0000000D                                    00000100-00000240-00000000-00000000 [SL 02]
+      CPUID 80000000                                    80000008-00000000-00000000-00000000
+      CPUID 80000001                                    00000000-00000000-00000021-2C100000
+      CPUID 80000002                                    65746E49-2952286C-726F4320-4D542865 [Intel(R) Core(TM]
+      CPUID 80000003                                    37692029-3737342D-50432030-20402055 [) i7-4770 CPU @ ]
+      CPUID 80000004                                    30342E33-007A4847-00000000-00000000 [3.40GHz]
+      CPUID 80000005                                    00000000-00000000-00000000-00000000
+      CPUID 80000006                                    00000000-00000000-01006040-00000000
+      CPUID 80000007                                    00000000-00000000-00000000-00000100
+      CPUID 80000008                                    00003027-00000000-00000000-00000000
+
+    CPUID Registers (CPU #6):
+      CPUID 00000000                                    0000000D-756E6547-6C65746E-49656E69 [GenuineIntel]
+      CPUID 00000001                                    000306C3-06100800-7FFAFBFF-BFEBFBFF
+      CPUID 00000002                                    76036301-00F0B5FF-00000000-00C10000
+      CPUID 00000003                                    00000000-00000000-00000000-00000000
+      CPUID 00000004                                    1C004121-01C0003F-0000003F-00000000 [SL 00]
+      CPUID 00000004                                    1C004122-01C0003F-0000003F-00000000 [SL 01]
+      CPUID 00000004                                    1C004143-01C0003F-000001FF-00000000 [SL 02]
+      CPUID 00000004                                    1C03C163-03C0003F-00001FFF-00000006 [SL 03]
+      CPUID 00000005                                    00000040-00000040-00000003-00042120
+      CPUID 00000006                                    00000077-00000002-00000009-00000000
+      CPUID 00000007                                    00000000-000027AB-00000000-9C000400 [SL 00]
+      CPUID 00000008                                    00000000-00000000-00000000-00000000
+      CPUID 00000009                                    00000000-00000000-00000000-00000000
+      CPUID 0000000A                                    07300403-00000000-00000000-00000603
+      CPUID 0000000B                                    00000001-00000002-00000100-00000006 [SL 00]
+      CPUID 0000000B                                    00000004-00000008-00000201-00000006 [SL 01]
+      CPUID 0000000C                                    00000000-00000000-00000000-00000000
+      CPUID 0000000D                                    00000007-00000340-00000340-00000000 [SL 00]
+      CPUID 0000000D                                    00000001-00000000-00000000-00000000 [SL 01]
+      CPUID 0000000D                                    00000100-00000240-00000000-00000000 [SL 02]
+      CPUID 80000000                                    80000008-00000000-00000000-00000000
+      CPUID 80000001                                    00000000-00000000-00000021-2C100000
+      CPUID 80000002                                    65746E49-2952286C-726F4320-4D542865 [Intel(R) Core(TM]
+      CPUID 80000003                                    37692029-3737342D-50432030-20402055 [) i7-4770 CPU @ ]
+      CPUID 80000004                                    30342E33-007A4847-00000000-00000000 [3.40GHz]
+      CPUID 80000005                                    00000000-00000000-00000000-00000000
+      CPUID 80000006                                    00000000-00000000-01006040-00000000
+      CPUID 80000007                                    00000000-00000000-00000000-00000100
+      CPUID 80000008                                    00003027-00000000-00000000-00000000
+
+    CPUID Registers (CPU #7 Virtual):
+      CPUID 00000000                                    0000000D-756E6547-6C65746E-49656E69 [GenuineIntel]
+      CPUID 00000001                                    000306C3-07100800-7FFAFBFF-BFEBFBFF
+      CPUID 00000002                                    76036301-00F0B5FF-00000000-00C10000
+      CPUID 00000003                                    00000000-00000000-00000000-00000000
+      CPUID 00000004                                    1C004121-01C0003F-0000003F-00000000 [SL 00]
+      CPUID 00000004                                    1C004122-01C0003F-0000003F-00000000 [SL 01]
+      CPUID 00000004                                    1C004143-01C0003F-000001FF-00000000 [SL 02]
+      CPUID 00000004                                    1C03C163-03C0003F-00001FFF-00000006 [SL 03]
+      CPUID 00000005                                    00000040-00000040-00000003-00042120
+      CPUID 00000006                                    00000077-00000002-00000009-00000000
+      CPUID 00000007                                    00000000-000027AB-00000000-9C000400 [SL 00]
+      CPUID 00000008                                    00000000-00000000-00000000-00000000
+      CPUID 00000009                                    00000000-00000000-00000000-00000000
+      CPUID 0000000A                                    07300403-00000000-00000000-00000603
+      CPUID 0000000B                                    00000001-00000002-00000100-00000007 [SL 00]
+      CPUID 0000000B                                    00000004-00000008-00000201-00000007 [SL 01]
+      CPUID 0000000C                                    00000000-00000000-00000000-00000000
+      CPUID 0000000D                                    00000007-00000340-00000340-00000000 [SL 00]
+      CPUID 0000000D                                    00000001-00000000-00000000-00000000 [SL 01]
+      CPUID 0000000D                                    00000100-00000240-00000000-00000000 [SL 02]
+      CPUID 80000000                                    80000008-00000000-00000000-00000000
+      CPUID 80000001                                    00000000-00000000-00000021-2C100000
+      CPUID 80000002                                    65746E49-2952286C-726F4320-4D542865 [Intel(R) Core(TM]
+      CPUID 80000003                                    37692029-3737342D-50432030-20402055 [) i7-4770 CPU @ ]
+      CPUID 80000004                                    30342E33-007A4847-00000000-00000000 [3.40GHz]
+      CPUID 80000005                                    00000000-00000000-00000000-00000000
+      CPUID 80000006                                    00000000-00000000-01006040-00000000
+      CPUID 80000007                                    00000000-00000000-00000000-00000100
+      CPUID 80000008                                    00003027-00000000-00000000-00000000
+
+    MSR Registers (CPU #0):
+      MSR 00000017                                      0004-0000-0000-0000 [PlatID = 1]
+      MSR 0000001B                                      0000-0000-FEE0-0D00
+      MSR 00000035                                      0000-0000-0004-0008
+      MSR 00000048                                      0000-0000-0000-0000
+      MSR 00000049                                      < FAILED >
+      MSR 0000008B                                      0000-0027-0000-0000
+      MSR 000000CE                                      0008-0838-F301-2200 [eD = 0]
+      MSR 000000E7                                      0000-0113-A95D-4A11 [S200]
+      MSR 000000E7                                      0000-0113-B04D-2D1E [S200]
+      MSR 000000E7                                      0000-0113-BB4A-7886
+      MSR 000000E8                                      0000-00AC-DE22-AEF4 [S200]
+      MSR 000000E8                                      0000-00AC-DFB4-BD95 [S200]
+      MSR 000000E8                                      0000-00AC-E031-F274
+      MSR 0000010B                                      < FAILED >
+      MSR 00000194                                      0000-0000-0001-0000
+      MSR 00000198                                      0000-1684-0000-0800 [S200]
+      MSR 00000198                                      0000-1684-0000-0800 [S200]
+      MSR 00000198                                      0000-16AD-0000-0800
+      MSR 00000199                                      0000-0000-0000-0800
+      MSR 0000019A                                      0000-0000-0000-0000
+      MSR 0000019B                                      0000-0000-0000-0010
+      MSR 0000019C                                      0000-0000-8841-0000 [S200]
+      MSR 0000019C                                      0000-0000-8841-0000 [S200]
+      MSR 0000019C                                      0000-0000-8840-0000
+      MSR 0000019D                                      0000-0000-0000-0000
+      MSR 000001A0                                      0000-0000-0085-0089
+      MSR 000001A2                                      0000-0000-0064-1400
+      MSR 000001A4                                      0000-0000-0000-0000
+      MSR 000001AA                                      0000-0000-0040-0000
+      MSR 000001AC                                      < FAILED >
+      MSR 000001AD                                      0000-0000-2526-2727
+      MSR 000001B0                                      0000-0000-0000-0006
+      MSR 000001B1                                      0000-0000-883F-0800
+      MSR 000001B2                                      0000-0000-0000-0000
+      MSR 000001FC                                      0000-0000-0004-005F
+      MSR 00000300                                      < FAILED >
+      MSR 0000030A                                      0000-0000-0000-0000 [S200]
+      MSR 0000030A                                      0000-0000-0000-0000 [S200]
+      MSR 0000030A                                      0000-0000-0000-0000
+      MSR 0000030B                                      0000-0000-0000-0000 [S200]
+      MSR 0000030B                                      0000-0000-0000-0000 [S200]
+      MSR 0000030B                                      0000-0000-0000-0000
+      MSR 00000480                                      00DA-0400-0000-0012
+      MSR 00000481                                      0000-007F-0000-0016
+      MSR 00000482                                      FFF9-FFFE-0401-E172
+      MSR 00000483                                      007F-FFFF-0003-6DFF
+      MSR 00000484                                      0000-FFFF-0000-11FF
+      MSR 00000485                                      0000-0000-3004-81E5
+      MSR 00000486                                      0000-0000-8000-0021
+      MSR 00000487                                      0000-0000-FFFF-FFFF
+      MSR 00000488                                      0000-0000-0000-2000
+      MSR 00000489                                      0000-0000-0017-67FF
+      MSR 0000048A                                      0000-0000-0000-002A
+      MSR 0000048B                                      0000-7CFF-0000-0000
+      MSR 0000048C                                      0000-0F01-0633-4141
+      MSR 0000048D                                      0000-007F-0000-0016
+      MSR 0000048E                                      FFF9-FFFE-0400-6172
+      MSR 0000048F                                      007F-FFFF-0003-6DFB
+      MSR 00000490                                      0000-FFFF-0000-11FB
+      MSR 00000601                                      0010-1414-0000-02F8
+      MSR 00000602                                      < FAILED >
+      MSR 00000603                                      0016-0000-0026-2626
+      MSR 00000604                                      < FAILED >
+      MSR 00000606                                      0000-0000-000A-0E03
+      MSR 0000060A                                      0000-0000-0000-8842
+      MSR 0000060B                                      0000-0000-0000-8873
+      MSR 0000060C                                      0000-0000-0000-8891
+      MSR 0000060D                                      0000-027F-28B8-7FEA
+      MSR 00000610                                      0042-8348-001A-82A0
+      MSR 00000611                                      0000-0000-0E8B-EC2A [S200]
+      MSR 00000611                                      0000-0000-0E8B-FDBB [S200]
+      MSR 00000611                                      0000-0000-0E8C-0FA6
+      MSR 00000613                                      0000-0000-0000-0000
+      MSR 00000614                                      0000-0000-0000-02A0
+      MSR 00000618                                      0054-00DE-0000-0000
+      MSR 00000619                                      0000-0000-0203-8924 [S200]
+      MSR 00000619                                      0000-0000-0203-9505 [S200]
+      MSR 00000619                                      0000-0000-0203-A04F
+      MSR 0000061B                                      0000-0000-0000-0000
+      MSR 0000061C                                      < FAILED >
+      MSR 0000061E                                      < FAILED >
+      MSR 00000620                                      0000-0000-0000-0827
+      MSR 00000621                                      0000-0000-0000-0008
+      MSR 00000638                                      0000-0000-0000-0000
+      MSR 00000639                                      0000-0000-08AE-A6B3 [S200]
+      MSR 00000639                                      0000-0000-08AE-A6C8 [S200]
+      MSR 00000639                                      0000-0000-08AE-AAE3
+      MSR 0000063A                                      0000-0000-0000-0000
+      MSR 0000063B                                      < FAILED >
+      MSR 00000640                                      0000-0000-0000-0000
+      MSR 00000641                                      0000-0000-0000-0000 [S200]
+      MSR 00000641                                      0000-0000-0000-0000 [S200]
+      MSR 00000641                                      0000-0000-0000-0000
+      MSR 00000642                                      0000-0000-0000-0010
+      MSR 00000648                                      0000-0000-0000-0022
+      MSR 00000649                                      0000-0000-0000-0000
+      MSR 0000064A                                      0000-0000-0000-0000
+      MSR 0000064B                                      0000-0000-8000-0000
+      MSR 0000064C                                      0000-0000-0000-0000
+      MSR 00000690                                      0000-0000-3120-0000
+      MSR 000006B0                                      0000-0000-0000-0000
+      MSR 000006B1                                      0000-0000-0D00-0000
+      MSR 00000832                                      0000-0000-0002-00D1
+      MSR 00000838                                      0000-0000-0000-030B
+      MSR 00000839                                      0000-0000-0000-01E0
+      MSR 0000083E                                      0000-0000-0000-000A
+
+    MSR Registers (CPU #1):
+      MSR 00000017                                      0004-0000-0000-0000 [PlatID = 1]
+      MSR 0000001B                                      0000-0000-FEE0-0C00
+      MSR 00000035                                      0000-0000-0004-0008
+      MSR 00000048                                      0000-0000-0000-0000
+      MSR 00000049                                      < FAILED >
+      MSR 0000008B                                      0000-0027-0000-0000
+      MSR 000000CE                                      0008-0838-F301-2200 [eD = 0]
+      MSR 000000E7                                      0000-0090-8769-A7CF
+      MSR 000000E8                                      0000-006F-7356-DCA0
+      MSR 0000010B                                      < FAILED >
+      MSR 00000194                                      0000-0000-0001-0000
+      MSR 00000198                                      0000-1684-0000-0800
+      MSR 00000199                                      0000-0000-0000-0800
+      MSR 0000019A                                      0000-0000-0000-0000
+      MSR 0000019B                                      0000-0000-0000-0010
+      MSR 0000019C                                      0000-0000-8842-0000
+      MSR 0000019D                                      0000-0000-0000-0000
+      MSR 000001A0                                      0000-0000-0085-0089
+      MSR 000001A2                                      0000-0000-0064-1400
+      MSR 000001A4                                      0000-0000-0000-0000
+      MSR 000001AA                                      0000-0000-0040-0000
+      MSR 000001AC                                      < FAILED >
+      MSR 000001AD                                      0000-0000-2526-2727
+      MSR 000001B0                                      0000-0000-0000-0006
+      MSR 000001B1                                      0000-0000-883F-0800
+      MSR 000001B2                                      0000-0000-0000-0000
+      MSR 000001FC                                      0000-0000-0004-005F
+      MSR 00000300                                      < FAILED >
+      MSR 0000030A                                      0000-0000-0000-0000
+      MSR 0000030B                                      0000-0000-0000-0000
+      MSR 00000480                                      00DA-0400-0000-0012
+      MSR 00000481                                      0000-007F-0000-0016
+      MSR 00000482                                      FFF9-FFFE-0401-E172
+      MSR 00000483                                      007F-FFFF-0003-6DFF
+      MSR 00000484                                      0000-FFFF-0000-11FF
+      MSR 00000485                                      0000-0000-3004-81E5
+      MSR 00000486                                      0000-0000-8000-0021
+      MSR 00000487                                      0000-0000-FFFF-FFFF
+      MSR 00000488                                      0000-0000-0000-2000
+      MSR 00000489                                      0000-0000-0017-67FF
+      MSR 0000048A                                      0000-0000-0000-002A
+      MSR 0000048B                                      0000-7CFF-0000-0000
+      MSR 0000048C                                      0000-0F01-0633-4141
+      MSR 0000048D                                      0000-007F-0000-0016
+      MSR 0000048E                                      FFF9-FFFE-0400-6172
+      MSR 0000048F                                      007F-FFFF-0003-6DFB
+      MSR 00000490                                      0000-FFFF-0000-11FB
+      MSR 00000601                                      0010-1414-0000-02F8
+      MSR 00000602                                      < FAILED >
+      MSR 00000603                                      0016-0000-0026-2626
+      MSR 00000604                                      < FAILED >
+      MSR 00000606                                      0000-0000-000A-0E03
+      MSR 0000060A                                      0000-0000-0000-8842
+      MSR 0000060B                                      0000-0000-0000-8873
+      MSR 0000060C                                      0000-0000-0000-8891
+      MSR 0000060D                                      0000-0280-51D0-2F4E
+      MSR 00000610                                      0042-8348-001A-82A0
+      MSR 00000611                                      0000-0000-0E8C-79D0
+      MSR 00000613                                      0000-0000-0000-0000
+      MSR 00000614                                      0000-0000-0000-02A0
+      MSR 00000618                                      0054-00DE-0000-0000
+      MSR 00000619                                      0000-0000-0203-CD78
+      MSR 0000061B                                      0000-0000-0000-0000
+      MSR 0000061C                                      < FAILED >
+      MSR 0000061E                                      < FAILED >
+      MSR 00000620                                      0000-0000-0000-0827
+      MSR 00000621                                      0000-0000-0000-0008
+      MSR 00000638                                      0000-0000-0000-0000
+      MSR 00000639                                      0000-0000-08AE-AB32
+      MSR 0000063A                                      0000-0000-0000-0000
+      MSR 0000063B                                      < FAILED >
+      MSR 00000640                                      0000-0000-0000-0000
+      MSR 00000641                                      0000-0000-0000-0000
+      MSR 00000642                                      0000-0000-0000-0010
+      MSR 00000648                                      0000-0000-0000-0022
+      MSR 00000649                                      0000-0000-0000-0000
+      MSR 0000064A                                      0000-0000-0000-0000
+      MSR 0000064B                                      0000-0000-8000-0000
+      MSR 0000064C                                      0000-0000-0000-0000
+      MSR 00000690                                      0000-0000-3120-0000
+      MSR 000006B0                                      0000-0000-0000-0000
+      MSR 000006B1                                      0000-0000-0D00-0000
+      MSR 00000832                                      0000-0000-0003-00D1
+      MSR 00000838                                      0000-0000-0000-0000
+      MSR 00000839                                      0000-0000-0000-0000
+      MSR 0000083E                                      0000-0000-0000-000A
+
+    MSR Registers (CPU #2):
+      MSR 00000017                                      0004-0000-0000-0000 [PlatID = 1]
+      MSR 0000001B                                      0000-0000-FEE0-0C00
+      MSR 00000035                                      0000-0000-0004-0008
+      MSR 00000048                                      0000-0000-0000-0000
+      MSR 00000049                                      < FAILED >
+      MSR 0000008B                                      0000-0027-0000-0000
+      MSR 000000CE                                      0008-0838-F301-2200 [eD = 0]
+      MSR 000000E7                                      0000-017F-5F73-D855
+      MSR 000000E8                                      0000-00F6-09D1-E51D
+      MSR 0000010B                                      < FAILED >
+      MSR 00000194                                      0000-0000-0001-0000
+      MSR 00000198                                      0000-169C-0000-0800
+      MSR 00000199                                      0000-0000-0000-0800
+      MSR 0000019A                                      0000-0000-0000-0000
+      MSR 0000019B                                      0000-0000-0000-0010
+      MSR 0000019C                                      0000-0000-8845-0000
+      MSR 0000019D                                      0000-0000-0000-0000
+      MSR 000001A0                                      0000-0000-0085-0089
+      MSR 000001A2                                      0000-0000-0064-1400
+      MSR 000001A4                                      0000-0000-0000-0000
+      MSR 000001AA                                      0000-0000-0040-0000
+      MSR 000001AC                                      < FAILED >
+      MSR 000001AD                                      0000-0000-2526-2727
+      MSR 000001B0                                      0000-0000-0000-0006
+      MSR 000001B1                                      0000-0000-8840-0800
+      MSR 000001B2                                      0000-0000-0000-0000
+      MSR 000001FC                                      0000-0000-0004-005F
+      MSR 00000300                                      < FAILED >
+      MSR 0000030A                                      0000-0000-0000-0000
+      MSR 0000030B                                      0000-0000-0000-0000
+      MSR 00000480                                      00DA-0400-0000-0012
+      MSR 00000481                                      0000-007F-0000-0016
+      MSR 00000482                                      FFF9-FFFE-0401-E172
+      MSR 00000483                                      007F-FFFF-0003-6DFF
+      MSR 00000484                                      0000-FFFF-0000-11FF
+      MSR 00000485                                      0000-0000-3004-81E5
+      MSR 00000486                                      0000-0000-8000-0021
+      MSR 00000487                                      0000-0000-FFFF-FFFF
+      MSR 00000488                                      0000-0000-0000-2000
+      MSR 00000489                                      0000-0000-0017-67FF
+      MSR 0000048A                                      0000-0000-0000-002A
+      MSR 0000048B                                      0000-7CFF-0000-0000
+      MSR 0000048C                                      0000-0F01-0633-4141
+      MSR 0000048D                                      0000-007F-0000-0016
+      MSR 0000048E                                      FFF9-FFFE-0400-6172
+      MSR 0000048F                                      007F-FFFF-0003-6DFB
+      MSR 00000490                                      0000-FFFF-0000-11FB
+      MSR 00000601                                      0010-1414-0000-02F8
+      MSR 00000602                                      < FAILED >
+      MSR 00000603                                      0016-0000-0026-2626
+      MSR 00000604                                      < FAILED >
+      MSR 00000606                                      0000-0000-000A-0E03
+      MSR 0000060A                                      0000-0000-0000-8842
+      MSR 0000060B                                      0000-0000-0000-8873
+      MSR 0000060C                                      0000-0000-0000-8891
+      MSR 0000060D                                      0000-0280-51D0-2F4E
+      MSR 00000610                                      0042-8348-001A-82A0
+      MSR 00000611                                      0000-0000-0E8C-7A0B
+      MSR 00000613                                      0000-0000-0000-0000
+      MSR 00000614                                      0000-0000-0000-02A0
+      MSR 00000618                                      0054-00DE-0000-0000
+      MSR 00000619                                      0000-0000-0203-CD88
+      MSR 0000061B                                      0000-0000-0000-0000
+      MSR 0000061C                                      < FAILED >
+      MSR 0000061E                                      < FAILED >
+      MSR 00000620                                      0000-0000-0000-0827
+      MSR 00000621                                      0000-0000-0000-0008
+      MSR 00000638                                      0000-0000-0000-0000
+      MSR 00000639                                      0000-0000-08AE-AB3C
+      MSR 0000063A                                      0000-0000-0000-0000
+      MSR 0000063B                                      < FAILED >
+      MSR 00000640                                      0000-0000-0000-0000
+      MSR 00000641                                      0000-0000-0000-0000
+      MSR 00000642                                      0000-0000-0000-0010
+      MSR 00000648                                      0000-0000-0000-0022
+      MSR 00000649                                      0000-0000-0000-0000
+      MSR 0000064A                                      0000-0000-0000-0000
+      MSR 0000064B                                      0000-0000-8000-0000
+      MSR 0000064C                                      0000-0000-0000-0000
+      MSR 00000690                                      0000-0000-3120-0000
+      MSR 000006B0                                      0000-0000-0000-0000
+      MSR 000006B1                                      0000-0000-0D00-0000
+      MSR 00000832                                      0000-0000-0002-00D1
+      MSR 00000838                                      0000-0000-0000-030B
+      MSR 00000839                                      0000-0000-0000-0204
+      MSR 0000083E                                      0000-0000-0000-000A
+
+    MSR Registers (CPU #3):
+      MSR 00000017                                      0004-0000-0000-0000 [PlatID = 1]
+      MSR 0000001B                                      0000-0000-FEE0-0C00
+      MSR 00000035                                      0000-0000-0004-0008
+      MSR 00000048                                      0000-0000-0000-0000
+      MSR 00000049                                      < FAILED >
+      MSR 0000008B                                      0000-0027-0000-0000
+      MSR 000000CE                                      0008-0838-F301-2200 [eD = 0]
+      MSR 000000E7                                      0000-0087-F2B0-192C
+      MSR 000000E8                                      0000-006D-F2E9-BF20
+      MSR 0000010B                                      < FAILED >
+      MSR 00000194                                      0000-0000-0001-0000
+      MSR 00000198                                      0000-169C-0000-0800
+      MSR 00000199                                      0000-0000-0000-0800
+      MSR 0000019A                                      0000-0000-0000-0000
+      MSR 0000019B                                      0000-0000-0000-0010
+      MSR 0000019C                                      0000-0000-8846-0000
+      MSR 0000019D                                      0000-0000-0000-0000
+      MSR 000001A0                                      0000-0000-0085-0089
+      MSR 000001A2                                      0000-0000-0064-1400
+      MSR 000001A4                                      0000-0000-0000-0000
+      MSR 000001AA                                      0000-0000-0040-0000
+      MSR 000001AC                                      < FAILED >
+      MSR 000001AD                                      0000-0000-2526-2727
+      MSR 000001B0                                      0000-0000-0000-0006
+      MSR 000001B1                                      0000-0000-883F-0800
+      MSR 000001B2                                      0000-0000-0000-0000
+      MSR 000001FC                                      0000-0000-0004-005F
+      MSR 00000300                                      < FAILED >
+      MSR 0000030A                                      0000-0000-0000-0000
+      MSR 0000030B                                      0000-0000-0000-0000
+      MSR 00000480                                      00DA-0400-0000-0012
+      MSR 00000481                                      0000-007F-0000-0016
+      MSR 00000482                                      FFF9-FFFE-0401-E172
+      MSR 00000483                                      007F-FFFF-0003-6DFF
+      MSR 00000484                                      0000-FFFF-0000-11FF
+      MSR 00000485                                      0000-0000-3004-81E5
+      MSR 00000486                                      0000-0000-8000-0021
+      MSR 00000487                                      0000-0000-FFFF-FFFF
+      MSR 00000488                                      0000-0000-0000-2000
+      MSR 00000489                                      0000-0000-0017-67FF
+      MSR 0000048A                                      0000-0000-0000-002A
+      MSR 0000048B                                      0000-7CFF-0000-0000
+      MSR 0000048C                                      0000-0F01-0633-4141
+      MSR 0000048D                                      0000-007F-0000-0016
+      MSR 0000048E                                      FFF9-FFFE-0400-6172
+      MSR 0000048F                                      007F-FFFF-0003-6DFB
+      MSR 00000490                                      0000-FFFF-0000-11FB
+      MSR 00000601                                      0010-1414-0000-02F8
+      MSR 00000602                                      < FAILED >
+      MSR 00000603                                      0016-0000-0026-2626
+      MSR 00000604                                      < FAILED >
+      MSR 00000606                                      0000-0000-000A-0E03
+      MSR 0000060A                                      0000-0000-0000-8842
+      MSR 0000060B                                      0000-0000-0000-8873
+      MSR 0000060C                                      0000-0000-0000-8891
+      MSR 0000060D                                      0000-0280-51D0-2F4E
+      MSR 00000610                                      0042-8348-001A-82A0
+      MSR 00000611                                      0000-0000-0E8C-7A6F
+      MSR 00000613                                      0000-0000-0000-0000
+      MSR 00000614                                      0000-0000-0000-02A0
+      MSR 00000618                                      0054-00DE-0000-0000
+      MSR 00000619                                      0000-0000-0203-CDA4
+      MSR 0000061B                                      0000-0000-0000-0000
+      MSR 0000061C                                      < FAILED >
+      MSR 0000061E                                      < FAILED >
+      MSR 00000620                                      0000-0000-0000-0827
+      MSR 00000621                                      0000-0000-0000-0008
+      MSR 00000638                                      0000-0000-0000-0000
+      MSR 00000639                                      0000-0000-08AE-AB48
+      MSR 0000063A                                      0000-0000-0000-0000
+      MSR 0000063B                                      < FAILED >
+      MSR 00000640                                      0000-0000-0000-0000
+      MSR 00000641                                      0000-0000-0000-0000
+      MSR 00000642                                      0000-0000-0000-0010
+      MSR 00000648                                      0000-0000-0000-0022
+      MSR 00000649                                      0000-0000-0000-0000
+      MSR 0000064A                                      0000-0000-0000-0000
+      MSR 0000064B                                      0000-0000-8000-0000
+      MSR 0000064C                                      0000-0000-0000-0000
+      MSR 00000690                                      0000-0000-3120-0000
+      MSR 000006B0                                      0000-0000-0000-0000
+      MSR 000006B1                                      0000-0000-0D00-0000
+      MSR 00000832                                      0000-0000-0003-00D1
+      MSR 00000838                                      0000-0000-0000-0000
+      MSR 00000839                                      0000-0000-0000-0000
+      MSR 0000083E                                      0000-0000-0000-000A
+
+    MSR Registers (CPU #4):
+      MSR 00000017                                      0004-0000-0000-0000 [PlatID = 1]
+      MSR 0000001B                                      0000-0000-FEE0-0C00
+      MSR 00000035                                      0000-0000-0004-0008
+      MSR 00000048                                      0000-0000-0000-0000
+      MSR 00000049                                      < FAILED >
+      MSR 0000008B                                      0000-0027-0000-0000
+      MSR 000000CE                                      0008-0838-F301-2200 [eD = 0]
+      MSR 000000E7                                      0000-00F8-A465-80C9
+      MSR 000000E8                                      0000-00A5-5C2A-2839
+      MSR 0000010B                                      < FAILED >
+      MSR 00000194                                      0000-0000-0001-0000
+      MSR 00000198                                      0000-16B0-0000-0800
+      MSR 00000199                                      0000-0000-0000-0800
+      MSR 0000019A                                      0000-0000-0000-0000
+      MSR 0000019B                                      0000-0000-0000-0010
+      MSR 0000019C                                      0000-0000-8840-0000
+      MSR 0000019D                                      0000-0000-0000-0000
+      MSR 000001A0                                      0000-0000-0085-0089
+      MSR 000001A2                                      0000-0000-0064-1400
+      MSR 000001A4                                      0000-0000-0000-0000
+      MSR 000001AA                                      0000-0000-0040-0000
+      MSR 000001AC                                      < FAILED >
+      MSR 000001AD                                      0000-0000-2526-2727
+      MSR 000001B0                                      0000-0000-0000-0006
+      MSR 000001B1                                      0000-0000-8840-0800
+      MSR 000001B2                                      0000-0000-0000-0000
+      MSR 000001FC                                      0000-0000-0004-005F
+      MSR 00000300                                      < FAILED >
+      MSR 0000030A                                      0000-0000-0000-0000
+      MSR 0000030B                                      0000-0000-0000-0000
+      MSR 00000480                                      00DA-0400-0000-0012
+      MSR 00000481                                      0000-007F-0000-0016
+      MSR 00000482                                      FFF9-FFFE-0401-E172
+      MSR 00000483                                      007F-FFFF-0003-6DFF
+      MSR 00000484                                      0000-FFFF-0000-11FF
+      MSR 00000485                                      0000-0000-3004-81E5
+      MSR 00000486                                      0000-0000-8000-0021
+      MSR 00000487                                      0000-0000-FFFF-FFFF
+      MSR 00000488                                      0000-0000-0000-2000
+      MSR 00000489                                      0000-0000-0017-67FF
+      MSR 0000048A                                      0000-0000-0000-002A
+      MSR 0000048B                                      0000-7CFF-0000-0000
+      MSR 0000048C                                      0000-0F01-0633-4141
+      MSR 0000048D                                      0000-007F-0000-0016
+      MSR 0000048E                                      FFF9-FFFE-0400-6172
+      MSR 0000048F                                      007F-FFFF-0003-6DFB
+      MSR 00000490                                      0000-FFFF-0000-11FB
+      MSR 00000601                                      0010-1414-0000-02F8
+      MSR 00000602                                      < FAILED >
+      MSR 00000603                                      0016-0000-0026-2626
+      MSR 00000604                                      < FAILED >
+      MSR 00000606                                      0000-0000-000A-0E03
+      MSR 0000060A                                      0000-0000-0000-8842
+      MSR 0000060B                                      0000-0000-0000-8873
+      MSR 0000060C                                      0000-0000-0000-8891
+      MSR 0000060D                                      0000-0280-51D0-2F4E
+      MSR 00000610                                      0042-8348-001A-82A0
+      MSR 00000611                                      0000-0000-0E8C-7AA1
+      MSR 00000613                                      0000-0000-0000-0000
+      MSR 00000614                                      0000-0000-0000-02A0
+      MSR 00000618                                      0054-00DE-0000-0000
+      MSR 00000619                                      0000-0000-0203-CDB2
+      MSR 0000061B                                      0000-0000-0000-0000
+      MSR 0000061C                                      < FAILED >
+      MSR 0000061E                                      < FAILED >
+      MSR 00000620                                      0000-0000-0000-0827
+      MSR 00000621                                      0000-0000-0000-0008
+      MSR 00000638                                      0000-0000-0000-0000
+      MSR 00000639                                      0000-0000-08AE-AB4E
+      MSR 0000063A                                      0000-0000-0000-0000
+      MSR 0000063B                                      < FAILED >
+      MSR 00000640                                      0000-0000-0000-0000
+      MSR 00000641                                      0000-0000-0000-0000
+      MSR 00000642                                      0000-0000-0000-0010
+      MSR 00000648                                      0000-0000-0000-0022
+      MSR 00000649                                      0000-0000-0000-0000
+      MSR 0000064A                                      0000-0000-0000-0000
+      MSR 0000064B                                      0000-0000-8000-0000
+      MSR 0000064C                                      0000-0000-0000-0000
+      MSR 00000690                                      0000-0000-3120-0000
+      MSR 000006B0                                      0000-0000-0000-0000
+      MSR 000006B1                                      0000-0000-0D00-0000
+      MSR 00000832                                      0000-0000-0002-00D1
+      MSR 00000838                                      0000-0000-0000-030B
+      MSR 00000839                                      0000-0000-0000-01CB
+      MSR 0000083E                                      0000-0000-0000-000A
+
+    MSR Registers (CPU #5):
+      MSR 00000017                                      0004-0000-0000-0000 [PlatID = 1]
+      MSR 0000001B                                      0000-0000-FEE0-0C00
+      MSR 00000035                                      0000-0000-0004-0008
+      MSR 00000048                                      0000-0000-0000-0000
+      MSR 00000049                                      < FAILED >
+      MSR 0000008B                                      0000-0027-0000-0000
+      MSR 000000CE                                      0008-0838-F301-2200 [eD = 0]
+      MSR 000000E7                                      0000-00A5-EBF8-9449
+      MSR 000000E8                                      0000-0074-71E0-0331
+      MSR 0000010B                                      < FAILED >
+      MSR 00000194                                      0000-0000-0001-0000
+      MSR 00000198                                      0000-16B0-0000-0800
+      MSR 00000199                                      0000-0000-0000-0800
+      MSR 0000019A                                      0000-0000-0000-0000
+      MSR 0000019B                                      0000-0000-0000-0010
+      MSR 0000019C                                      0000-0000-883F-0000
+      MSR 0000019D                                      0000-0000-0000-0000
+      MSR 000001A0                                      0000-0000-0085-0089
+      MSR 000001A2                                      0000-0000-0064-1400
+      MSR 000001A4                                      0000-0000-0000-0000
+      MSR 000001AA                                      0000-0000-0040-0000
+      MSR 000001AC                                      < FAILED >
+      MSR 000001AD                                      0000-0000-2526-2727
+      MSR 000001B0                                      0000-0000-0000-0006
+      MSR 000001B1                                      0000-0000-883F-0800
+      MSR 000001B2                                      0000-0000-0000-0000
+      MSR 000001FC                                      0000-0000-0004-005F
+      MSR 00000300                                      < FAILED >
+      MSR 0000030A                                      0000-0000-0000-0000
+      MSR 0000030B                                      0000-0000-0000-0000
+      MSR 00000480                                      00DA-0400-0000-0012
+      MSR 00000481                                      0000-007F-0000-0016
+      MSR 00000482                                      FFF9-FFFE-0401-E172
+      MSR 00000483                                      007F-FFFF-0003-6DFF
+      MSR 00000484                                      0000-FFFF-0000-11FF
+      MSR 00000485                                      0000-0000-3004-81E5
+      MSR 00000486                                      0000-0000-8000-0021
+      MSR 00000487                                      0000-0000-FFFF-FFFF
+      MSR 00000488                                      0000-0000-0000-2000
+      MSR 00000489                                      0000-0000-0017-67FF
+      MSR 0000048A                                      0000-0000-0000-002A
+      MSR 0000048B                                      0000-7CFF-0000-0000
+      MSR 0000048C                                      0000-0F01-0633-4141
+      MSR 0000048D                                      0000-007F-0000-0016
+      MSR 0000048E                                      FFF9-FFFE-0400-6172
+      MSR 0000048F                                      007F-FFFF-0003-6DFB
+      MSR 00000490                                      0000-FFFF-0000-11FB
+      MSR 00000601                                      0010-1414-0000-02F8
+      MSR 00000602                                      < FAILED >
+      MSR 00000603                                      0016-0000-0026-2626
+      MSR 00000604                                      < FAILED >
+      MSR 00000606                                      0000-0000-000A-0E03
+      MSR 0000060A                                      0000-0000-0000-8842
+      MSR 0000060B                                      0000-0000-0000-8873
+      MSR 0000060C                                      0000-0000-0000-8891
+      MSR 0000060D                                      0000-0280-51D0-2F4E
+      MSR 00000610                                      0042-8348-001A-82A0
+      MSR 00000611                                      0000-0000-0E8C-7ACD
+      MSR 00000613                                      0000-0000-0000-0000
+      MSR 00000614                                      0000-0000-0000-02A0
+      MSR 00000618                                      0054-00DE-0000-0000
+      MSR 00000619                                      0000-0000-0203-CDC1
+      MSR 0000061B                                      0000-0000-0000-0000
+      MSR 0000061C                                      < FAILED >
+      MSR 0000061E                                      < FAILED >
+      MSR 00000620                                      0000-0000-0000-0827
+      MSR 00000621                                      0000-0000-0000-0008
+      MSR 00000638                                      0000-0000-0000-0000
+      MSR 00000639                                      0000-0000-08AE-AB59
+      MSR 0000063A                                      0000-0000-0000-0000
+      MSR 0000063B                                      < FAILED >
+      MSR 00000640                                      0000-0000-0000-0000
+      MSR 00000641                                      0000-0000-0000-0000
+      MSR 00000642                                      0000-0000-0000-0010
+      MSR 00000648                                      0000-0000-0000-0022
+      MSR 00000649                                      0000-0000-0000-0000
+      MSR 0000064A                                      0000-0000-0000-0000
+      MSR 0000064B                                      0000-0000-8000-0000
+      MSR 0000064C                                      0000-0000-0000-0000
+      MSR 00000690                                      0000-0000-3120-0000
+      MSR 000006B0                                      0000-0000-0000-0000
+      MSR 000006B1                                      0000-0000-0D00-0000
+      MSR 00000832                                      0000-0000-0003-00D1
+      MSR 00000838                                      0000-0000-0000-0000
+      MSR 00000839                                      0000-0000-0000-0000
+      MSR 0000083E                                      0000-0000-0000-000A
+
+    MSR Registers (CPU #6):
+      MSR 00000017                                      0004-0000-0000-0000 [PlatID = 1]
+      MSR 0000001B                                      0000-0000-FEE0-0C00
+      MSR 00000035                                      0000-0000-0004-0008
+      MSR 00000048                                      0000-0000-0000-0000
+      MSR 00000049                                      < FAILED >
+      MSR 0000008B                                      0000-0027-0000-0000
+      MSR 000000CE                                      0008-0838-F301-2200 [eD = 0]
+      MSR 000000E7                                      0000-00D6-B77E-6F45
+      MSR 000000E8                                      0000-008E-9DC2-505B
+      MSR 0000010B                                      < FAILED >
+      MSR 00000194                                      0000-0000-0001-0000
+      MSR 00000198                                      0000-169E-0000-0800
+      MSR 00000199                                      0000-0000-0000-0800
+      MSR 0000019A                                      0000-0000-0000-0000
+      MSR 0000019B                                      0000-0000-0000-0010
+      MSR 0000019C                                      0000-0000-8843-0000
+      MSR 0000019D                                      0000-0000-0000-0000
+      MSR 000001A0                                      0000-0000-0085-0089
+      MSR 000001A2                                      0000-0000-0064-1400
+      MSR 000001A4                                      0000-0000-0000-0000
+      MSR 000001AA                                      0000-0000-0040-0000
+      MSR 000001AC                                      < FAILED >
+      MSR 000001AD                                      0000-0000-2526-2727
+      MSR 000001B0                                      0000-0000-0000-0006
+      MSR 000001B1                                      0000-0000-883F-0800
+      MSR 000001B2                                      0000-0000-0000-0000
+      MSR 000001FC                                      0000-0000-0004-005F
+      MSR 00000300                                      < FAILED >
+      MSR 0000030A                                      0000-0000-0000-0000
+      MSR 0000030B                                      0000-0000-0000-0000
+      MSR 00000480                                      00DA-0400-0000-0012
+      MSR 00000481                                      0000-007F-0000-0016
+      MSR 00000482                                      FFF9-FFFE-0401-E172
+      MSR 00000483                                      007F-FFFF-0003-6DFF
+      MSR 00000484                                      0000-FFFF-0000-11FF
+      MSR 00000485                                      0000-0000-3004-81E5
+      MSR 00000486                                      0000-0000-8000-0021
+      MSR 00000487                                      0000-0000-FFFF-FFFF
+      MSR 00000488                                      0000-0000-0000-2000
+      MSR 00000489                                      0000-0000-0017-67FF
+      MSR 0000048A                                      0000-0000-0000-002A
+      MSR 0000048B                                      0000-7CFF-0000-0000
+      MSR 0000048C                                      0000-0F01-0633-4141
+      MSR 0000048D                                      0000-007F-0000-0016
+      MSR 0000048E                                      FFF9-FFFE-0400-6172
+      MSR 0000048F                                      007F-FFFF-0003-6DFB
+      MSR 00000490                                      0000-FFFF-0000-11FB
+      MSR 00000601                                      0010-1414-0000-02F8
+      MSR 00000602                                      < FAILED >
+      MSR 00000603                                      0016-0000-0026-2626
+      MSR 00000604                                      < FAILED >
+      MSR 00000606                                      0000-0000-000A-0E03
+      MSR 0000060A                                      0000-0000-0000-8842
+      MSR 0000060B                                      0000-0000-0000-8873
+      MSR 0000060C                                      0000-0000-0000-8891
+      MSR 0000060D                                      0000-0280-51D0-2F4E
+      MSR 00000610                                      0042-8348-001A-82A0
+      MSR 00000611                                      0000-0000-0E8C-7B2B
+      MSR 00000613                                      0000-0000-0000-0000
+      MSR 00000614                                      0000-0000-0000-02A0
+      MSR 00000618                                      0054-00DE-0000-0000
+      MSR 00000619                                      0000-0000-0203-CDDE
+      MSR 0000061B                                      0000-0000-0000-0000
+      MSR 0000061C                                      < FAILED >
+      MSR 0000061E                                      < FAILED >
+      MSR 00000620                                      0000-0000-0000-0827
+      MSR 00000621                                      0000-0000-0000-0008
+      MSR 00000638                                      0000-0000-0000-0000
+      MSR 00000639                                      0000-0000-08AE-AB5F
+      MSR 0000063A                                      0000-0000-0000-0000
+      MSR 0000063B                                      < FAILED >
+      MSR 00000640                                      0000-0000-0000-0000
+      MSR 00000641                                      0000-0000-0000-0000
+      MSR 00000642                                      0000-0000-0000-0010
+      MSR 00000648                                      0000-0000-0000-0022
+      MSR 00000649                                      0000-0000-0000-0000
+      MSR 0000064A                                      0000-0000-0000-0000
+      MSR 0000064B                                      0000-0000-8000-0000
+      MSR 0000064C                                      0000-0000-0000-0000
+      MSR 00000690                                      0000-0000-3120-0000
+      MSR 000006B0                                      0000-0000-0000-0000
+      MSR 000006B1                                      0000-0000-0D00-0000
+      MSR 00000832                                      0000-0000-0002-00D1
+      MSR 00000838                                      0000-0000-0000-030B
+      MSR 00000839                                      0000-0000-0000-0217
+      MSR 0000083E                                      0000-0000-0000-000A
+
+    MSR Registers (CPU #7):
+      MSR 00000017                                      0004-0000-0000-0000 [PlatID = 1]
+      MSR 0000001B                                      0000-0000-FEE0-0C00
+      MSR 00000035                                      0000-0000-0004-0008
+      MSR 00000048                                      0000-0000-0000-0000
+      MSR 00000049                                      < FAILED >
+      MSR 0000008B                                      0000-0027-0000-0000
+      MSR 000000CE                                      0008-0838-F301-2200 [eD = 0]
+      MSR 000000E7                                      0000-00AE-D860-E24A
+      MSR 000000E8                                      0000-007A-37E2-C44E
+      MSR 0000010B                                      < FAILED >
+      MSR 00000194                                      0000-0000-0001-0000
+      MSR 00000198                                      0000-1676-0000-0800
+      MSR 00000199                                      0000-0000-0000-0800
+      MSR 0000019A                                      0000-0000-0000-0000
+      MSR 0000019B                                      0000-0000-0000-0010
+      MSR 0000019C                                      0000-0000-8843-0000
+      MSR 0000019D                                      0000-0000-0000-0000
+      MSR 000001A0                                      0000-0000-0085-0089
+      MSR 000001A2                                      0000-0000-0064-1400
+      MSR 000001A4                                      0000-0000-0000-0000
+      MSR 000001AA                                      0000-0000-0040-0000
+      MSR 000001AC                                      < FAILED >
+      MSR 000001AD                                      0000-0000-2526-2727
+      MSR 000001B0                                      0000-0000-0000-0006
+      MSR 000001B1                                      0000-0000-883F-0800
+      MSR 000001B2                                      0000-0000-0000-0000
+      MSR 000001FC                                      0000-0000-0004-005F
+      MSR 00000300                                      < FAILED >
+      MSR 0000030A                                      0000-0000-0000-0000
+      MSR 0000030B                                      0000-0000-0000-0000
+      MSR 00000480                                      00DA-0400-0000-0012
+      MSR 00000481                                      0000-007F-0000-0016
+      MSR 00000482                                      FFF9-FFFE-0401-E172
+      MSR 00000483                                      007F-FFFF-0003-6DFF
+      MSR 00000484                                      0000-FFFF-0000-11FF
+      MSR 00000485                                      0000-0000-3004-81E5
+      MSR 00000486                                      0000-0000-8000-0021
+      MSR 00000487                                      0000-0000-FFFF-FFFF
+      MSR 00000488                                      0000-0000-0000-2000
+      MSR 00000489                                      0000-0000-0017-67FF
+      MSR 0000048A                                      0000-0000-0000-002A
+      MSR 0000048B                                      0000-7CFF-0000-0000
+      MSR 0000048C                                      0000-0F01-0633-4141
+      MSR 0000048D                                      0000-007F-0000-0016
+      MSR 0000048E                                      FFF9-FFFE-0400-6172
+      MSR 0000048F                                      007F-FFFF-0003-6DFB
+      MSR 00000490                                      0000-FFFF-0000-11FB
+      MSR 00000601                                      0010-1414-0000-02F8
+      MSR 00000602                                      < FAILED >
+      MSR 00000603                                      0016-0000-0026-2626
+      MSR 00000604                                      < FAILED >
+      MSR 00000606                                      0000-0000-000A-0E03
+      MSR 0000060A                                      0000-0000-0000-8842
+      MSR 0000060B                                      0000-0000-0000-8873
+      MSR 0000060C                                      0000-0000-0000-8891
+      MSR 0000060D                                      0000-0280-51D0-2F4E
+      MSR 00000610                                      0042-8348-001A-82A0
+      MSR 00000611                                      0000-0000-0E8C-7B53
+      MSR 00000613                                      0000-0000-0000-0000
+      MSR 00000614                                      0000-0000-0000-02A0
+      MSR 00000618                                      0054-00DE-0000-0000
+      MSR 00000619                                      0000-0000-0203-CDEC
+      MSR 0000061B                                      0000-0000-0000-0000
+      MSR 0000061C                                      < FAILED >
+      MSR 0000061E                                      < FAILED >
+      MSR 00000620                                      0000-0000-0000-0827
+      MSR 00000621                                      0000-0000-0000-0008
+      MSR 00000638                                      0000-0000-0000-0000
+      MSR 00000639                                      0000-0000-08AE-AB63
+      MSR 0000063A                                      0000-0000-0000-0000
+      MSR 0000063B                                      < FAILED >
+      MSR 00000640                                      0000-0000-0000-0000
+      MSR 00000641                                      0000-0000-0000-0000
+      MSR 00000642                                      0000-0000-0000-0010
+      MSR 00000648                                      0000-0000-0000-0022
+      MSR 00000649                                      0000-0000-0000-0000
+      MSR 0000064A                                      0000-0000-0000-0000
+      MSR 0000064B                                      0000-0000-8000-0000
+      MSR 0000064C                                      0000-0000-0000-0000
+      MSR 00000690                                      0000-0000-3120-0000
+      MSR 000006B0                                      0000-0000-0000-0000
+      MSR 000006B1                                      0000-0000-0D00-0000
+      MSR 00000832                                      0000-0000-0003-00D1
+      MSR 00000838                                      0000-0000-0000-0000
+      MSR 00000839                                      0000-0000-0000-0000
+      MSR 0000083E                                      0000-0000-0000-000A
+
+
+--------[ Системная плата ]---------------------------------------------------------------------------------------------
+
+    Свойства системной платы:
+      ID системной платы                                <DMI>
+      Системная плата                                   Lenovo 10130
+
+    Свойства шины FSB:
+      Тип шины                                          BCLK
+      Реальная частота                                  100 МГц
+      Эффективная частота                               100 МГц
+
+    Свойства шины памяти:
+      Тип шины                                          DDR3 SDRAM
+      Ширина шины                                       64 бит
+      Соотношение DRAM:FSB                              24:3
+      Реальная частота                                  800 МГц (DDR)
+      Эффективная частота                               1600 МГц
+      Пропускная способность                            12800 МБ/с
+
+    Свойства шины чипсета:
+      Тип шины                                          Intel Direct Media Interface v2.0
+
+    Производитель системной платы:
+      Фирма                                             Lenovo
+      Информация о продукте                             http://www.lenovo.com/products/us
+      Загрузка обновлений BIOS                          http://support.lenovo.com/en_US
+      Обновление драйверов                              http://www.aida64.com/goto/?p=drvupdates
+      Модернизации BIOS                                 http://www.aida64.com/goto/?p=biosupdates
+
+
+--------[ Память ]------------------------------------------------------------------------------------------------------
+
+    Физическая память:
+      Всего                                             8140 МБ
+      Занято                                            3269 МБ
+      Свободно                                          4871 МБ
+      Загрузка                                          40 %
+
+    Виртуальная память:
+      Всего                                             10956 МБ
+      Занято                                            4860 МБ
+      Свободно                                          6096 МБ
+      Загрузка                                          44 %
+
+    Файл подкачки:
+      Файл подкачки                                     C:\pagefile.sys
+      Текущий размер                                    2816 МБ
+      Текущая/пиковая загрузка                          109 МБ / 175 МБ
+      Загрузка                                          4 %
+
+    Physical Address Extension (PAE):
+      Поддерживается ОС                                 Да
+      Поддерживается ЦП                                 Да
+      Активный                                          Да
+
+
+--------[ Чипсет ]------------------------------------------------------------------------------------------------------
+
+  [ Северный мост: Intel Haswell-DT IMC ]
+
+    Свойства северного моста:
+      Северный мост                                     Intel Haswell-DT IMC
+      Платформа Intel                                   Shark Bay-DT
+      Поддерживаемые типы памяти                        DDR3-1066, DDR3-1333, DDR3-1600 SDRAM
+      Максимальный объём памяти                         16 ГБ
+      Версия                                            06
+      Технологический процесс                           22 nm
+      VT-d                                              Поддерживается
+      Extended APIC (x2APIC)                            Поддерживается
+
+    Контроллер памяти:
+      Тип                                               Dual Channel  (128 бит)
+      Активный режим                                    Single Channel  (64 бит)
+
+    Тайминги памяти:
+      CAS Latency (CL)                                  11T
+      RAS To CAS Delay (tRCD)                           11T
+      RAS Precharge (tRP)                               11T
+      RAS Active Time (tRAS)                            28T
+      Row Refresh Cycle Time (tRFC)                     208T
+      Command Rate (CR)                                 1T
+      RAS To RAS Delay (tRRD)                           5T
+      Write Recovery Time (tWR)                         12T
+      Read To Read Delay (tRTR)                         Same Rank: 4T, Different Rank: 6T, Different DIMM: 6T
+      Read To Write Delay (tRTW)                        Same Rank: 11T, Different Rank: 11T, Different DIMM: 11T
+      Write To Read Delay (tWTR)                        6T, Same Rank: 20T, Different Rank: 3T, Different DIMM: 4T
+      Write To Write Delay (tWTW)                       Same Rank: 4T, Different Rank: 7T, Different DIMM: 7T
+      Read To Precharge Delay (tRTP)                    6T
+      Write To Precharge Delay (tWTP)                   24T
+      Four Activate Window Delay (tFAW)                 24T
+      Write CAS Latency (tWCL)                          8T
+      CKE Min. Pulse Width (tCKE)                       4T
+      Refresh Period (tREF)                             6240T
+      Round Trip Latency (tRTL)                         DIMM3: 42T, DIMM4: 0T
+      I/O Latency (tIOL)                                DIMM3: 3T, DIMM4: 0T
+      Burst Length (BL)                                 8
+
+    Коррекция ошибок:
+      ECC                                               Не поддерживается
+      ChipKill ECC                                      Не поддерживается
+      RAID                                              Не поддерживается
+      ECC Scrubbing                                     Не поддерживается
+
+    Разъёмы памяти:
+      Разъём DRAM 1                                     8 ГБ  (DDR3 SDRAM)
+
+    Встроенный графический контроллер:
+      Тип графического контроллера                      Intel HD Graphics
+      Статус графического контроллера                   Запрещено
+
+    Контроллер PCI Express:
+      PCI-E 2.0 x16 port #2                             Используется @ x8  (MSI N635GT (MS-V292) Video Adapter, nVIDIA GK208 - High Definition Audio Controller)
+
+    Производитель чипсета:
+      Фирма                                             Intel Corporation
+      Информация о продукте                             https://www.intel.com/products/chipsets
+      Загрузка драйверов                                https://www.intel.com/support/chipsets
+      Модернизации BIOS                                 http://www.aida64.com/goto/?p=biosupdates
+      Обновление драйверов                              http://www.aida64.com/goto/?p=drvupdates
+
+  [ Южный мост: Intel Lynx Point H81 ]
+
+    Свойства южного моста:
+      Южный мост                                        Intel Lynx Point H81
+      Платформа Intel                                   Shark Bay-DT
+      Версия / Stepping                                 05 / C2
+      Тип корпуса                                       708 Ball FC-BGA
+      Размеры корпуса                                   23 mm x 22 mm
+      Технологический процесс                           32 nm
+      Размер кристалла                                  47.87 mm2
+      Напряжение питания ядра                           1.05 V
+      TDP                                               4.1 W
+
+    High Definition Audio:
+      Имя кодека                                        Realtek ALC662
+      ID кодека                                         10EC0662h / 17AA367Dh
+      Версия кодека                                     1003h
+      Тип кодека                                        Audio
+
+    Контроллер PCI Express:
+      PCI-E 2.0 x1 port #1                              Пусто
+      PCI-E 2.0 x1 port #3                              Используется @ x1  (Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter)
+
+    Производитель чипсета:
+      Фирма                                             Intel Corporation
+      Информация о продукте                             https://www.intel.com/products/chipsets
+      Загрузка драйверов                                https://www.intel.com/support/chipsets
+      Модернизации BIOS                                 http://www.aida64.com/goto/?p=biosupdates
+      Обновление драйверов                              http://www.aida64.com/goto/?p=drvupdates
+
+
+--------[ BIOS ]--------------------------------------------------------------------------------------------------------
+
+    Свойства BIOS:
+      Тип BIOS                                          Неизвестно
+      Версия BIOS                                       IEKT17AUS
+      SMBIOS Version                                    2.7
+      UEFI Boot                                         Да
+      Secure Boot                                       Запрещено
+      Дата BIOS системы                                 09/04/2013
+      Дата BIOS видеоадаптера                           Неизвестно
+
+
+--------[ ACPI ]--------------------------------------------------------------------------------------------------------
+
+  [ APIC: Multiple APIC Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      APIC
+      Описание таблицы                                  Multiple APIC Description Table
+      Адрес памяти                                      DDFB51A8h
+      Размер таблицы                                    146 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI
+      Creator Revision                                  00010013h
+      Local APIC Address                                FEE00000h
+
+    Processor Local APIC:
+      ACPI Processor ID                                 01h
+      APIC ID                                           00h
+      Статус                                            Разрешено
+
+    Processor Local APIC:
+      ACPI Processor ID                                 02h
+      APIC ID                                           02h
+      Статус                                            Разрешено
+
+    Processor Local APIC:
+      ACPI Processor ID                                 03h
+      APIC ID                                           04h
+      Статус                                            Разрешено
+
+    Processor Local APIC:
+      ACPI Processor ID                                 04h
+      APIC ID                                           06h
+      Статус                                            Разрешено
+
+    Processor Local APIC:
+      ACPI Processor ID                                 05h
+      APIC ID                                           01h
+      Статус                                            Разрешено
+
+    Processor Local APIC:
+      ACPI Processor ID                                 06h
+      APIC ID                                           03h
+      Статус                                            Разрешено
+
+    Processor Local APIC:
+      ACPI Processor ID                                 07h
+      APIC ID                                           05h
+      Статус                                            Разрешено
+
+    Processor Local APIC:
+      ACPI Processor ID                                 08h
+      APIC ID                                           07h
+      Статус                                            Разрешено
+
+    I/O APIC:
+      I/O APIC ID                                       02h
+      I/O APIC Address                                  FEC00000h
+      Global System Interrupt Base                      00000000h
+
+    Interrupt Source Override:
+      Шина                                              ISA
+      Источник                                          IRQ0
+      Global System Interrupt                           00000002h
+      Полярность                                        Conforms to the specifications of the bus
+      Trigger Mode                                      Conforms to the specifications of the bus
+
+    Interrupt Source Override:
+      Шина                                              ISA
+      Источник                                          IRQ9
+      Global System Interrupt                           00000009h
+      Полярность                                        Active High
+      Trigger Mode                                      Level-Triggered
+
+    Local APIC NMI:
+      ACPI Processor ID                                 FFh
+      Local ACPI LINT#                                  01h
+      Полярность                                        Active High
+      Trigger Mode                                      Edge-Triggered
+
+  [ BGRT: Boot Graphics Resource Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      BGRT
+      Описание таблицы                                  Boot Graphics Resource Table
+      Адрес памяти                                      DDFB9A38h
+      Размер таблицы                                    56 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI
+      Creator Revision                                  00010013h
+
+  [ DMAR: DMA Remapping Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      DMAR
+      Описание таблицы                                  DMA Remapping Table
+      Адрес памяти                                      DDFB9A70h
+      Размер таблицы                                    128 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        INTL
+      Creator Revision                                  00000001h
+
+  [ DSDT: Differentiated System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      DSDT
+      Описание таблицы                                  Differentiated System Description Table
+      Адрес памяти                                      DDFA81A0h
+      Размер таблицы                                    52983 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        INTL
+      Creator Revision                                  20120711h
+
+    nVIDIA SLI:
+      SLI Certification                                 Нет
+      PCI 0-0-0-0 (Direct I/O)                          8086-0C00  (Intel)
+      PCI 0-0-0-0 (HAL)                                 8086-0C00  (Intel)
+
+    Lucid Virtu:
+      Virtu Certification                               Нет
+
+  [ FACP: Fixed ACPI Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      FACP
+      Описание таблицы                                  Fixed ACPI Description Table
+      Адрес памяти                                      DDFA8118h
+      Размер таблицы                                    132 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI
+      Creator Revision                                  00010013h
+      FACS Address                                      DE9ED040h
+      DSDT Address                                      DDFA81A0h
+      SMI Command Port                                  000000B2h
+      PM Timer                                          00001808h
+
+  [ FACP: Fixed ACPI Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      FACP
+      Описание таблицы                                  Fixed ACPI Description Table
+      Адрес памяти                                      00000000-DDFB5098h
+      Размер таблицы                                    268 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI
+      Creator Revision                                  00010013h
+      FACS Address                                      DE9ED080h / 00000000-00000000h
+      DSDT Address                                      DDFA81A0h / 00000000-DDFA81A0h
+      SMI Command Port                                  000000B2h
+      PM Timer                                          00001808h
+
+  [ FACS: Firmware ACPI Control Structure ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      FACS
+      Описание таблицы                                  Firmware ACPI Control Structure
+      Адрес памяти                                      DE9ED040h
+      Размер таблицы                                    64 байт
+      Hardware Signature                                3C97D5D1h
+      Waking Vector                                     00000000h
+      Global Lock                                       00000000h
+
+  [ FBPT: Firmware Basic Boot Performance Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      FBPT
+      Описание таблицы                                  Firmware Basic Boot Performance Table
+      Адрес памяти                                      00000000-DEED9038h
+      Размер таблицы                                    56 байт
+
+  [ FPDT: Firmware Performance Data Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      FPDT
+      Описание таблицы                                  Firmware Performance Data Table
+      Адрес памяти                                      DDFB5240h
+      Размер таблицы                                    68 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI
+      Creator Revision                                  00010013h
+      FBPT Address                                      00000000-DEED9038h
+      S3PT Address                                      00000000-DEED9018h
+
+  [ HPET: IA-PC High Precision Event Timer Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      HPET
+      Описание таблицы                                  IA-PC High Precision Event Timer Table
+      Адрес памяти                                      DDFB6398h
+      Размер таблицы                                    56 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI.
+      Creator Revision                                  00000005h
+      HPET Address                                      00000000-FED00000h
+      ID поставщика                                     8086h
+      Версия                                            01h
+      Number of Timers                                  8
+      Counter Size                                      64 бит
+      Minimum Clock Ticks                               14318
+      Page Protection                                   No Guarantee
+      OEM Attribute                                     0h
+      LegacyReplacement IRQ Routing                     Поддерживается
+
+  [ LPIT: Low Power Idle Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      LPIT
+      Описание таблицы                                  Low Power Idle Table
+      Адрес памяти                                      DDFB5288h
+      Размер таблицы                                    92 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI.
+      Creator Revision                                  00000005h
+
+    Native C-State Instruction Entry Trigger:
+      Идентификатор                                     0
+      Статус                                            Разрешено
+      Minimum Residency                                 30000 us
+      Worst Case Exit Latency                           3000 us
+      Residency Counter MSR                             00000632h
+      Residency Counter Frequency                       TSC
+
+  [ MCFG: Memory Mapped Configuration Space Base Address Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      MCFG
+      Описание таблицы                                  Memory Mapped Configuration Space Base Address Description Table
+      Адрес памяти                                      DDFB6358h
+      Размер таблицы                                    60 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        MSFT
+      Creator Revision                                  00000097h
+      Config Space Address                              00000000-F8000000h
+      PCI Segment                                       0000h
+      Start Bus Number                                  00h
+      End Bus Number                                    3Fh
+
+  [ MSDM: Microsoft Data Management Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      MSDM
+      Описание таблицы                                  Microsoft Data Management Table
+      Адрес памяти                                      DDFB52E8h
+      Размер таблицы                                    85 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI
+      Creator Revision                                  00010013h
+      SLS Version                                       1
+      SLS Data Type                                     1
+      SLS Data Length                                   29
+      SLS Data                                          QK6VW-N2874-PJQDB-2QKT2-3YGVK
+
+  [ RSD PTR: Root System Description Pointer ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      RSD PTR
+      Описание таблицы                                  Root System Description Pointer
+      Адрес памяти                                      000F0010h
+      Размер таблицы                                    36 байт
+      OEM ID                                            LENOVO
+      RSDP Revision                                     2  (ACPI 2.0+)
+      RSDT Address                                      DDFA8028h
+      XSDT Address                                      00000000-DDFA8088h
+
+  [ RSDT: Root System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      RSDT
+      Описание таблицы                                  Root System Description Table
+      Адрес памяти                                      DDFA8028h
+      Размер таблицы                                    88 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        MSFT
+      Creator Revision                                  00010013h
+      RSDT Entry #0                                     DDFA8118h  (FACP)
+      RSDT Entry #1                                     DDFB51A8h  (APIC)
+      RSDT Entry #2                                     DDFB5240h  (FPDT)
+      RSDT Entry #3                                     DDFB5288h  (LPIT)
+      RSDT Entry #4                                     DDFB52E8h  (MSDM)
+      RSDT Entry #5                                     DDFB5340h  (SSDT)
+      RSDT Entry #6                                     DDFB5880h  (SSDT)
+      RSDT Entry #7                                     DDFB6358h  (MCFG)
+      RSDT Entry #8                                     DDFB6398h  (HPET)
+      RSDT Entry #9                                     DDFB63D0h  (SSDT)
+      RSDT Entry #10                                    DDFB6740h  (SSDT)
+      RSDT Entry #11                                    DDFB9A38h  (BGRT)
+      RSDT Entry #12                                    DDFB9A70h  (DMAR)
+
+  [ S3PT: S3 Performance Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      S3PT
+      Описание таблицы                                  S3 Performance Table
+      Адрес памяти                                      00000000-DEED9018h
+      Размер таблицы                                    32 байт
+
+  [ SSDT: Secondary System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      SSDT
+      Описание таблицы                                  Secondary System Description Table
+      Адрес памяти                                      DDF98D98h
+      Размер таблицы                                    281 байт
+      OEM ID                                            PmRef
+      OEM Table ID                                      ApCst
+      OEM Revision                                      00003000h
+      Creator ID                                        INTL
+      Creator Revision                                  20120711h
+
+  [ SSDT: Secondary System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      SSDT
+      Описание таблицы                                  Secondary System Description Table
+      Адрес памяти                                      DDF99618h
+      Размер таблицы                                    1450 байт
+      OEM ID                                            PmRef
+      OEM Table ID                                      ApIst
+      OEM Revision                                      00003000h
+      Creator ID                                        INTL
+      Creator Revision                                  20120711h
+
+  [ SSDT: Secondary System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      SSDT
+      Описание таблицы                                  Secondary System Description Table
+      Адрес памяти                                      DDF99C18h
+      Размер таблицы                                    979 байт
+      OEM ID                                            PmRef
+      OEM Table ID                                      Cpu0Cst
+      OEM Revision                                      00003001h
+      Creator ID                                        INTL
+      Creator Revision                                  20120711h
+
+  [ SSDT: Secondary System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      SSDT
+      Описание таблицы                                  Secondary System Description Table
+      Адрес памяти                                      DDFB5340h
+      Размер таблицы                                    1337 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        INTL
+      Creator Revision                                  20120711h
+
+  [ SSDT: Secondary System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      SSDT
+      Описание таблицы                                  Secondary System Description Table
+      Адрес памяти                                      DDFB5880h
+      Размер таблицы                                    2776 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        INTL
+      Creator Revision                                  20120711h
+
+  [ SSDT: Secondary System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      SSDT
+      Описание таблицы                                  Secondary System Description Table
+      Адрес памяти                                      DDFB63D0h
+      Размер таблицы                                    877 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        INTL
+      Creator Revision                                  20120711h
+
+  [ SSDT: Secondary System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      SSDT
+      Описание таблицы                                  Secondary System Description Table
+      Адрес памяти                                      DDFB6740h
+      Размер таблицы                                    13043 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        INTL
+      Creator Revision                                  20091112h
+
+  [ XSDT: Extended System Description Table ]
+
+    Свойства таблицы ACPI:
+      Подпись ACPI                                      XSDT
+      Описание таблицы                                  Extended System Description Table
+      Адрес памяти                                      00000000-DDFA8088h
+      Размер таблицы                                    140 байт
+      OEM ID                                            LENOVO
+      OEM Table ID                                      TC-03
+      OEM Revision                                      00001170h
+      Creator ID                                        AMI
+      Creator Revision                                  00010013h
+      XSDT Entry #0                                     00000000-DDFB5098h  (FACP)
+      XSDT Entry #1                                     00000000-DDFB51A8h  (APIC)
+      XSDT Entry #2                                     00000000-DDFB5240h  (FPDT)
+      XSDT Entry #3                                     00000000-DDFB5288h  (LPIT)
+      XSDT Entry #4                                     00000000-DDFB52E8h  (MSDM)
+      XSDT Entry #5                                     00000000-DDFB5340h  (SSDT)
+      XSDT Entry #6                                     00000000-DDFB5880h  (SSDT)
+      XSDT Entry #7                                     00000000-DDFB6358h  (MCFG)
+      XSDT Entry #8                                     00000000-DDFB6398h  (HPET)
+      XSDT Entry #9                                     00000000-DDFB63D0h  (SSDT)
+      XSDT Entry #10                                    00000000-DDFB6740h  (SSDT)
+      XSDT Entry #11                                    00000000-DDFB9A38h  (BGRT)
+      XSDT Entry #12                                    00000000-DDFB9A70h  (DMAR)
+
+
+--------[ Debug - PCI ]-------------------------------------------------------------------------------------------------
+
+    B00 D00 F00:  Intel Haswell-DT - Host Bridge/DRAM Controller
+                  
+      Offset 000:  86 80 00 0C  06 00 90 20  06 00 00 06  00 00 00 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  E0 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 90 D1 FE  00 00 00 00  01 00 D1 FE  00 00 00 00 
+      Offset 050:  03 00 00 00  09 00 00 00  04 00 00 00  01 00 00 DF 
+      Offset 060:  05 00 00 F8  00 00 00 00  01 80 D1 FE  00 00 00 00 
+      Offset 070:  00 00 00 FF  01 00 00 00  00 0C 00 FF  7F 00 00 00 
+      Offset 080:  10 00 00 00  00 00 00 00  1A 00 00 00  00 00 00 00 
+      Offset 090:  01 00 00 FF  01 00 00 00  01 00 F0 1E  02 00 00 00 
+      Offset 0A0:  01 00 00 00  02 00 00 00  01 00 00 1F  02 00 00 00 
+      Offset 0B0:  01 00 00 E0  01 00 00 E0  01 00 00 DF  01 00 00 E0 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  09 00 0C 01  61 E0 04 62  D0 00 54 56  00 00 00 00 
+      Offset 0F0:  00 00 00 00  C8 0F 03 00  00 00 00 00  00 00 00 00 
+
+    B00 D01 F00:  Intel Haswell - PCI Express x16 Controller
+                  
+      Offset 000:  86 80 01 0C  07 04 10 00  06 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 01 01 00  E0 E0 00 20 
+      Offset 020:  00 F6 00 F7  01 E8 F1 F1  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  88 00 00 00  00 00 00 00  00 01 18 00 
+      Offset 040:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 0A 
+      Offset 080:  01 90 03 C8  08 00 00 00  0D 80 00 00  AA 17 7D 36 
+      Offset 090:  05 A0 01 00  38 01 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 0A0:  10 00 42 01  00 80 00 00  00 00 00 00  02 AD 61 02 
+      Offset 0B0:  41 00 82 D0  80 25 0C 00  00 00 40 00  08 00 00 00 
+      Offset 0C0:  00 00 00 00  80 0B 08 00  00 04 00 00  06 00 00 00 
+      Offset 0D0:  42 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 60 01 00  4E 01 01 40  00 00 00 00  00 00 10 00 
+
+    B00 D14 F00:  Intel Lynx Point PCH - USB 3.0 xHCI Host Controller [C2]
+                  
+      Offset 000:  86 80 31 8C  06 04 90 02  05 30 03 0C  00 00 00 00 
+      Offset 010:  04 00 20 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  70 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  FD 01 36 80  89 C6 0F 80  00 00 00 00  00 00 00 00 
+      Offset 050:  9F 6E 88 07  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  30 20 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 80 C2 C1  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 00 87 00  58 02 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  40 01 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  0F 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  03 0C 00 20  00 00 0F 00  03 0C 30 00  00 00 00 00 
+      Offset 0D0:  FF 00 00 00  FF 00 00 00  03 00 00 00  03 00 00 00 
+      Offset 0E0:  F4 01 00 00  00 00 00 00  00 00 00 00  D8 D8 D8 08 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D16 F00:  Intel Lynx Point PCH - Host Embedded Controller Interface 1 (HECI1) [C1]
+                  
+      Offset 000:  86 80 3A 8C  06 04 10 00  04 00 80 07  00 00 80 00 
+      Offset 010:  04 A0 21 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  45 02 00 1E  10 00 01 80  06 23 00 60  F0 1F 00 10 
+      Offset 050:  01 8C 03 C8  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 02 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 E0  00 00 00 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  05 00 81 00 
+      Offset 090:  38 02 E0 FE  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  02 00 00 C0 
+      Offset 0C0:  55 D9 46 C0  38 60 05 52  76 F6 63 4E  79 FF 87 8E 
+      Offset 0D0:  07 10 99 F0  1C 95 6D 24  31 94 AE E6  67 B7 F5 B6 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B00 D1A F00:  Intel Lynx Point PCH - USB 2.0 EHCI Host Controller 2 [C2]
+                  
+      Offset 000:  86 80 2D 8C  06 00 90 02  05 20 03 0C  00 00 00 00 
+      Offset 010:  00 80 21 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  10 01 00 00 
+      Offset 040:  00 00 00 00  4D 1C 99 3D  00 00 00 00  00 00 00 00 
+      Offset 050:  01 58 C2 C9  00 00 00 00  0A 98 A0 20  00 00 00 00 
+      Offset 060:  20 20 FF 07  00 00 00 00  01 00 00 00  00 20 00 C0 
+      Offset 070:  00 00 DF 3F  00 00 0F 00  4F 01 00 00  8C 40 00 00 
+      Offset 080:  00 00 80 00  11 88 0C 93  70 0D 00 24  01 04 02 00 
+      Offset 090:  00 00 00 00  00 00 00 00  13 00 06 03  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 AA FF 00  00 00 FF FF  27 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  04 80 BE DD 
+      Offset 0F0:  00 00 00 00  88 85 80 00  B1 0F 06 08  08 17 1A 20 
+
+    B00 D1B F00:  Intel Lynx Point PCH - High Definition Audio Controller [C2]
+                  
+      Offset 000:  86 80 20 8C  06 00 10 00  05 00 03 04  10 00 00 00 
+      Offset 010:  04 C0 AF FE  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  16 01 00 00 
+      Offset 040:  03 00 00 17  00 00 00 00  00 00 00 00  00 80 00 00 
+      Offset 050:  01 60 42 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  05 70 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 00 91 00  00 00 00 10  00 08 10 00  00 00 00 00 
+      Offset 080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 04 02 01  00 60 00 00  00 0C 85 82  10 00 33 02 
+      Offset 0D0:  00 0C 85 02  10 00 33 02  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D1C F00:  Intel Lynx Point PCH - PCI Express Root Port 1 [C2]
+                  
+      Offset 000:  86 80 10 8C  04 04 10 00  D5 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 02 02 00  F0 00 00 20 
+      Offset 020:  F0 FF 00 00  F1 FF 01 00  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  12 4C 31 01 
+      Offset 050:  03 00 01 10  60 00 04 00  28 10 00 00  08 00 00 00 
+      Offset 060:  00 00 00 00  17 08 08 00  00 04 00 00  00 00 00 00 
+      Offset 070:  01 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 01 00  78 01 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  AA 17 7D 36  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 01  00 08 00 00  02 00 11 09  00 00 00 00 
+      Offset 0E0:  00 3F 00 00  00 00 00 00  03 00 00 00  00 00 00 00 
+      Offset 0F0:  50 00 00 00  80 F5 00 00  B1 0F 06 08  B0 03 02 01 
+
+    B00 D1C F02:  Intel Lynx Point PCH - PCI Express Root Port 3 [C2]
+                  
+      Offset 000:  86 80 14 8C  07 04 10 00  D5 00 04 06  10 00 81 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 03 03 00  D0 D0 00 00 
+      Offset 020:  10 F7 10 F7  11 F2 11 F2  00 00 00 00  00 00 00 00 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 03 00 00 
+      Offset 040:  10 80 42 01  00 80 00 00  00 00 10 00  12 3C 32 03 
+      Offset 050:  40 00 11 70  00 B2 14 00  00 00 40 00  08 00 00 00 
+      Offset 060:  00 00 00 00  17 08 00 00  00 04 00 00  00 00 00 00 
+      Offset 070:  02 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 90 01 00  58 01 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 090:  0D A0 00 00  AA 17 7D 36  00 00 00 00  00 00 00 00 
+      Offset 0A0:  01 00 03 C8  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 01  02 08 00 00  08 80 11 0B  00 00 00 00 
+      Offset 0E0:  00 03 00 00  00 00 3C 88  11 00 00 00  00 00 00 00 
+      Offset 0F0:  50 00 00 00  40 00 00 0C  B1 0F 06 08  B0 03 00 03 
+
+    B00 D1D F00:  Intel Lynx Point PCH - USB 2.0 EHCI Host Controller 1 [C2]
+                  
+      Offset 000:  86 80 26 8C  06 00 90 02  05 20 03 0C  00 00 00 00 
+      Offset 010:  00 70 21 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  17 01 00 00 
+      Offset 040:  00 00 00 00  DB 05 9A 09  00 00 00 00  00 00 00 00 
+      Offset 050:  01 58 C2 C9  00 00 00 00  0A 98 A0 20  00 00 00 00 
+      Offset 060:  20 20 FF 07  00 00 00 00  01 00 00 00  00 20 00 C0 
+      Offset 070:  00 00 DF 3F  03 0C 00 20  4F 01 00 00  8C 40 00 00 
+      Offset 080:  00 00 80 00  11 88 0C 93  70 0D 00 24  01 04 02 00 
+      Offset 090:  00 00 00 00  00 00 00 00  13 00 06 03  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 AA FF 00  00 00 F3 40  27 00 00 00 
+      Offset 0E0:  00 00 00 00  FF FF FF FF  FF FF FF FF  04 50 B2 DD 
+      Offset 0F0:  00 00 00 00  88 85 80 00  B1 0F 06 08  08 17 1A 20 
+
+    B00 D1F F00:  Intel H81 Chipset - LPC Interface Controller [C2]
+                  
+      Offset 000:  86 80 5C 8C  07 00 10 02  05 00 01 06  00 00 80 00 
+      Offset 010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  E0 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 040:  01 18 00 00  80 00 00 00  01 1C 00 00  10 00 00 00 
+      Offset 050:  F8 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  80 80 80 80  90 00 00 00  80 80 80 80  F8 F0 00 00 
+      Offset 070:  78 F0 78 F0  78 F0 78 F0  78 F0 78 F0  78 F0 78 F0 
+      Offset 080:  00 00 00 14  01 0A 3C 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 0F 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  18 5E 80 60  09 18 06 00  00 46 00 00  00 00 01 80 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 10  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  33 22 11 00  67 45 00 00  CF FF 00 00  22 00 00 00 
+      Offset 0E0:  09 00 0C 10  00 00 00 00  01 01 F1 91  00 00 00 00 
+      Offset 0F0:  01 C0 D1 FE  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D1F F02:  Intel Lynx Point PCH - SATA AHCI Controller (Ports 0-5) [C2]
+                  
+      Offset 000:  86 80 02 8C  07 04 B0 02  05 01 06 01  00 00 00 00 
+      Offset 010:  71 F0 00 00  61 F0 00 00  51 F0 00 00  41 F0 00 00 
+      Offset 020:  21 F0 00 00  00 60 21 F7  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  80 00 00 00  00 00 00 00  00 02 00 00 
+      Offset 040:  00 80 00 80  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  01 A8 03 40  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 70 01 00  98 01 E0 FE  00 00 00 00  00 00 00 00 
+      Offset 090:  60 0C 33 A3  83 01 00 0C  20 02 5C E0  21 00 00 80 
+      Offset 0A0:  A8 00 00 00  00 00 00 00  12 00 10 00  48 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D1F F03:  Intel Lynx Point PCH - SMBus Controller [C2]
+                  
+      Offset 000:  86 80 22 8C  00 04 80 02  05 00 05 0C  00 00 00 00 
+      Offset 010:  04 50 21 F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  01 F0 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  00 00 00 00  00 00 00 00  12 03 00 00 
+      Offset 040:  10 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  03 04 04 00  00 00 08 08  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B00 D1F F06:  Intel Lynx Point PCH - Thermal Controller [C2]
+                  
+      Offset 000:  86 80 24 8C  00 00 10 00  05 00 80 11  00 00 00 00 
+      Offset 010:  04 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  50 00 00 00  00 00 00 00  FF 03 00 00 
+      Offset 040:  05 F0 FD F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  01 80 23 00  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 080:  05 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  B1 0F 06 08  00 00 00 00 
+
+    B01 D00 F00:  MSI N635GT (MS-V292) Video Adapter
+                  
+      Offset 000:  DE 10 80 12  07 00 10 00  A1 00 00 03  10 00 80 00 
+      Offset 010:  00 00 00 F6  0C 00 00 E8  00 00 00 00  0C 00 00 F0 
+      Offset 020:  00 00 00 00  01 E0 00 00  00 00 00 00  62 14 22 29 
+      Offset 030:  00 00 00 00  60 00 00 00  00 00 00 00  10 01 00 00 
+      Offset 040:  62 14 22 29  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  01 00 00 00  CE D6 23 00  00 00 00 00 
+      Offset 060:  01 68 03 00  08 00 00 00  05 78 80 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  10 00 12 00  E1 8D 2C 01 
+      Offset 080:  10 21 00 00  82 3C 45 00  41 01 82 10  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  13 00 00 00 
+      Offset 0A0:  00 00 00 00  06 00 00 00  02 00 01 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  09 00 14 01  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B01 D00 F01:  nVIDIA GK208 - High Definition Audio Controller
+                  
+      Offset 000:  DE 10 0F 0E  06 00 10 00  A1 00 03 04  10 00 80 00 
+      Offset 010:  00 C0 0F F7  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 020:  00 00 00 00  00 00 00 00  00 00 00 00  62 14 22 29 
+      Offset 030:  00 00 00 00  60 00 00 00  00 00 00 00  11 02 00 00 
+      Offset 040:  62 14 22 29  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  00 00 00 00  00 00 00 00  CE D6 23 00  00 00 00 00 
+      Offset 060:  01 68 03 00  08 00 00 00  05 78 80 00  00 00 00 00 
+      Offset 070:  00 00 00 00  00 00 00 00  10 00 02 00  E1 8D 2C 01 
+      Offset 080:  00 21 00 00  82 3C 45 00  03 01 82 10  00 00 00 00 
+      Offset 090:  00 00 00 00  00 00 00 00  00 00 00 00  13 00 00 00 
+      Offset 0A0:  00 00 00 00  06 00 00 00  00 00 01 00  00 00 00 00 
+      Offset 0B0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    B03 D00 F00:  Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter
+                  
+      Offset 000:  EC 10 68 81  07 04 10 00  0C 00 00 02  10 00 00 00 
+      Offset 010:  01 D0 00 00  00 00 00 00  04 00 10 F7  00 00 00 00 
+      Offset 020:  0C 00 10 F2  00 00 00 00  00 00 00 00  AA 17 7D 36 
+      Offset 030:  00 00 00 00  40 00 00 00  00 00 00 00  00 01 00 00 
+      Offset 040:  01 50 C3 FF  08 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 050:  05 70 80 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 070:  10 B0 02 02  C0 8C 90 05  07 20 10 00  11 7C 47 00 
+      Offset 080:  40 00 11 10  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 090:  00 00 00 00  1F 08 0C 00  10 04 00 00  02 00 00 00 
+      Offset 0A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0B0:  11 D0 03 80  04 00 00 00  04 08 00 00  00 00 00 00 
+      Offset 0C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0D0:  03 00 FC 80  FF FF FF FF  00 00 00 00  00 00 00 00 
+      Offset 0E0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+      Offset 0F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00 
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 4000:  C6 50 44 10  03 41 22 82  45 55 AB 0A  CA 64 29 05
+      Offset 4010:  08 00 00 00  C6 14 00 00  00 00 00 00  00 00 00 00
+      Offset 4020:  00 00 10 00  20 20 20 20  00 00 0E 00  00 00 00 00
+      Offset 4030:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4040:  49 C0 00 00  00 00 00 00  56 34 12 00  EF CD AB 00
+      Offset 4050:  43 65 87 00  56 34 12 00  EF CD AB 00  43 65 87 00
+      Offset 4060:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4070:  00 00 00 00  00 00 00 00  00 01 01 01  00 00 00 00
+      Offset 4080:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 4200:  00 00 3F 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4210:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4220:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4230:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4240:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4250:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4260:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4270:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4280:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4290:  80 40 00 00  0F 98 00 00  04 10 B4 46  00 00 00 00
+      Offset 42A0:  00 00 00 00  00 B2 00 01  00 00 00 00  00 00 00 00
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 4400:  6B 71 86 15  84 41 33 08  D4 10 EF B0  54 DD 5A 0B
+      Offset 4410:  07 00 00 00  0B D5 00 00  00 00 00 00  00 00 00 00
+      Offset 4420:  00 00 10 00  2A 2A 00 00  33 00 15 00  00 00 00 00
+      Offset 4430:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4440:  49 C0 00 00  00 00 00 00  A1 0C A1 00  08 0D EF 00
+      Offset 4450:  1E 0A AD 00  A1 0C A1 00  08 0D EF 00  1E 0A AD 00
+      Offset 4460:  A1 0C A1 00  08 0D EF 00  1E 0A AD 00  A1 0C A1 00
+      Offset 4470:  08 0D EF 00  1E 0A AD 00  02 01 01 0A  00 00 00 00
+      Offset 4480:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 4600:  00 00 3F 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4610:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4620:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4630:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4640:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4650:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4660:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4670:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4680:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4690:  80 40 00 00  FF 98 00 00  60 18 D0 6C  58 42 00 00
+      Offset 46A0:  03 00 00 00  00 82 00 41  00 00 00 00  00 00 00 00
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 4800:  00 00 00 00  00 00 03 00  00 00 00 08  00 00 00 08
+      Offset 4810:  00 00 00 08  00 00 00 08  00 00 00 08  00 00 00 08
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 4A80:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 4A90:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 5000:  21 00 00 00  00 00 60 00  20 00 62 00  00 00 60 00
+      Offset 5010:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 5880:  60 00 00 00  04 00 00 00  00 11 00 00  00 00 00 00
+      Offset 5890:  FF FF 00 00  FF FF 00 00  FF FF 00 00  FF FF 00 00
+      Offset 58A0:  00 00 00 00  00 00 00 00  4F 29 00 00  00 00 00 00
+      Offset 58B0:  00 00 00 00  00 00 00 00  00 00 00 00  7F 00 00 00
+      Offset 58C0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 58D0:  FF FF 00 00  FF FF 00 00  FF FF 00 00  FF FF 00 00
+      Offset 58E0:  00 00 00 00  DE 00 54 00  D7 DD 03 02  00 00 00 00
+      Offset 58F0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 20 31
+      Offset 5900:  00 00 00 00  00 00 00 0D  00 00 00 00  00 00 00 00
+      Offset 5910:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 5920:  00 00 00 00  10 00 00 00  66 3E AF 08  00 00 00 00
+      Offset 5930:  A0 02 00 00  00 00 00 00  03 0E 0A 00  2B 73 8D 0E
+      Offset 5940:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 5950:  00 00 00 00  00 00 04 00  00 22 01 F3  28 08 08 00
+      Offset 5960:  00 00 00 00  C0 27 AA CC  F9 92 D5 0F  15 5E DC 5B
+      Offset 5970:  00 00 00 00  00 00 00 00  28 00 00 00  28 00 00 00
+      Offset 5980:  23 00 00 00  1C 47 90 98  00 00 00 00  00 00 00 00
+      Offset 5990:  FF 00 00 00  FF 00 00 00  18 07 04 00  00 14 64 00
+      Offset 59A0:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 59B0:  F8 02 00 00  14 14 10 00  00 00 00 00  00 00 00 00
+      Offset 59C0:  00 00 41 88  00 00 00 00  00 00 00 00  00 00 00 00
+
+    PCI-8086-0C00:  Intel SNB/IVB/HSW/CRW/BDW/SKL/KBL/CFL/WHL/CNL/CML/ICL/RKL/TGL/JSL MCHBAR
+                  
+      Offset 5E00:  06 00 00 00  06 00 00 00  00 00 00 00  00 00 00 00
+      Offset 5E10:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+
+    PCI-8086-8C24:  Intel 8/9-series PCH TBAR
+                  
+      Offset 00:  B5 00 00 00  80 00 00 00  81 00 01 00  80 00 00 00
+      Offset 10:  54 01 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 20:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 30:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 40:  3C 09 85 B4  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 50:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 60:  00 00 01 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 70:  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00
+      Offset 80:  01 00 00 00
+
+
+--------[ Debug - Video BIOS ]------------------------------------------------------------------------------------------
+
+    C000:0000  ................................................................
+    C000:0040  ................................................................
+    C000:0080  ................................................................
+    C000:00C0  ................................................................
+    C000:0100  ................................................................
+    C000:0140  ................................................................
+    C000:0180  ................................................................
+    C000:01C0  ................................................................
+    C000:0200  ................................................................
+    C000:0240  ................................................................
+    C000:0280  ................................................................
+    C000:02C0  ................................................................
+    C000:0300  ................................................................
+    C000:0340  ................................................................
+    C000:0380  ................................................................
+    C000:03C0  ................................................................
+
+
+--------[ Debug - Unknown ]---------------------------------------------------------------------------------------------
+
+    BIOS            Unknown
+    SPD             No SPD module found! (BusCount = 0)
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.

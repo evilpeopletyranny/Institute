@@ -1,0 +1,195 @@
+--------[ AIDA64 Extreme ]----------------------------------------------------------------------------------------------
+
+    Версия                                            AIDA64 v6.60.5900/ru
+    Тестовый модуль                                   4.5.865.8-x64
+    Домашняя страница                                 http://www.aida64.com/
+    Тип отчёта                                        Мастер отчётов
+    Компьютер                                         DESKTOP-3RV1MEH
+    Генератор                                         vlads
+    Операционная система                              Microsoft Windows 10 Home Single Language 10.0.19043.1526 (Win10 21H1 May 2021 Update)
+    Дата                                              2022-02-24
+    Время                                             19:42
+
+
+--------[ ЦП ]----------------------------------------------------------------------------------------------------------
+
+    Свойства ЦП:
+      Тип ЦП                                            QuadCore Intel Core i7-4770, 3800 MHz (38 x 100)
+      Псевдоним ЦП                                      Haswell-DT
+      Степпинг ЦП                                       C0
+      Наборы инструкций                                 x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA, AES
+      Исходная частота                                  3400 МГц
+      Мин./макс. множитель ЦП                           8x / 34x
+      Engineering Sample                                Нет
+      Кэш L1 кода                                       32 КБ per core
+      Кэш L1 данных                                     32 КБ per core
+      Кэш L2                                            256 КБ per core  (On-Die, ECC, Full-Speed)
+      Кэш L3                                            8 МБ  (On-Die, ECC, Full-Speed)
+
+    Физическая информация о ЦП:
+      Тип корпуса                                       1150 Contact FC-LGA
+      Размеры корпуса                                   37.5 mm x 37.5 mm
+      Число транзисторов                                1400 млн
+      Технологический процесс                           22 nm, CMOS, Cu, High-K + Metal Gate
+      Размер кристалла                                  177 mm2
+      Типичная мощность                                 84 W
+
+    Производитель ЦП:
+      Фирма                                             Intel Corporation
+      Информация о продукте                             https://ark.intel.com/content/www/us/en/ark/search.html?q=Intel%20Core%20i7-4770
+      Обновление драйверов                              http://www.aida64.com/goto/?p=drvupdates
+
+    Multi CPU:
+      CPU #1                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #2                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #3                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #4                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #5                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #6                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #7                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+      CPU #8                                            Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, 3392 МГц
+
+    Загрузка ЦП:
+      ЦП 1 / Ядро 1 / SMT 1                             0%
+      ЦП 1 / Ядро 1 / SMT 2                             0%
+      ЦП 1 / Ядро 2 / SMT 1                             0%
+      ЦП 1 / Ядро 2 / SMT 2                             0%
+      ЦП 1 / Ядро 3 / SMT 1                             0%
+      ЦП 1 / Ядро 3 / SMT 2                             0%
+      ЦП 1 / Ядро 4 / SMT 1                             0%
+      ЦП 1 / Ядро 4 / SMT 2                             0%
+
+
+--------[ CPUID ]-------------------------------------------------------------------------------------------------------
+
+    Свойства CPUID:
+      Производитель CPUID                               GenuineIntel
+      Имя ЦП CPUID                                      Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+      Версия CPUID                                      000306C3h
+      Идентификатор марки IA                            00h  (Неизвестно)
+      Идентификатор платформы                           4Ah / MC 02h  (LGA1150)
+      Версия обновления микрокода                       27h
+      SMT / CMP                                         2 / 4
+      Температура Tjmax                                 100 °C  (212 °F)
+      CPU Thermal Design Power (TDP)                    84 W
+      CPU Thermal Design Current (TDC)                  95 A
+      CPU Max Power Limit                               Unlimited Power / Unlimited Time
+      CPU Power Limit 1 (Long Duration)                 84 W / 8.00 sec  (Unlocked)
+      CPU Power Limit 2 (Short Duration)                105 W / 2.44 ms  (Unlocked)
+      Max Turbo Boost Multipliers                       1C: 39x, 2C: 39x, 3C: 38x, 4C: 37x
+
+--------[ Системная плата ]---------------------------------------------------------------------------------------------
+
+    Свойства системной платы:
+      ID системной платы                                <DMI>
+      Системная плата                                   Lenovo 10130
+
+    Свойства шины FSB:
+      Тип шины                                          BCLK
+      Реальная частота                                  100 МГц
+      Эффективная частота                               100 МГц
+
+    Свойства шины памяти:
+      Тип шины                                          DDR3 SDRAM
+      Ширина шины                                       64 бит
+      Соотношение DRAM:FSB                              24:3
+      Реальная частота                                  800 МГц (DDR)
+      Эффективная частота                               1600 МГц
+      Пропускная способность                            12800 МБ/с
+
+    Свойства шины чипсета:
+      Тип шины                                          Intel Direct Media Interface v2.0
+
+    Производитель системной платы:
+      Фирма                                             Lenovo
+      Информация о продукте                             http://www.lenovo.com/products/us
+      Загрузка обновлений BIOS                          http://support.lenovo.com/en_US
+      Обновление драйверов                              http://www.aida64.com/goto/?p=drvupdates
+      Модернизации BIOS                                 http://www.aida64.com/goto/?p=biosupdates
+
+--------[ Чипсет ]------------------------------------------------------------------------------------------------------
+
+  [ Северный мост: Intel Haswell-DT IMC ]
+
+    Свойства северного моста:
+      Северный мост                                     Intel Haswell-DT IMC
+      Платформа Intel                                   Shark Bay-DT
+      Поддерживаемые типы памяти                        DDR3-1066, DDR3-1333, DDR3-1600 SDRAM
+      Максимальный объём памяти                         16 ГБ
+      Версия                                            06
+      Технологический процесс                           22 nm
+      VT-d                                              Поддерживается
+      Extended APIC (x2APIC)                            Поддерживается
+
+    Контроллер памяти:
+      Тип                                               Dual Channel  (128 бит)
+      Активный режим                                    Single Channel  (64 бит)
+
+    Разъёмы памяти:
+      Разъём DRAM 1                                     8 ГБ  (DDR3 SDRAM)
+
+    Встроенный графический контроллер:
+      Тип графического контроллера                      Intel HD Graphics
+      Статус графического контроллера                   Запрещено
+
+    Контроллер PCI Express:
+      PCI-E 2.0 x16 port #2                             Используется @ x8  (MSI N635GT (MS-V292) Video Adapter, nVIDIA GK208 - High Definition Audio Controller)
+
+    Производитель чипсета:
+      Фирма                                             Intel Corporation
+      Информация о продукте                             https://www.intel.com/products/chipsets
+      Загрузка драйверов                                https://www.intel.com/support/chipsets
+      Модернизации BIOS                                 http://www.aida64.com/goto/?p=biosupdates
+      Обновление драйверов                              http://www.aida64.com/goto/?p=drvupdates
+
+  [ Южный мост: Intel Lynx Point H81 ]
+
+    Свойства южного моста:
+      Южный мост                                        Intel Lynx Point H81
+      Платформа Intel                                   Shark Bay-DT
+      Версия / Stepping                                 05 / C2
+      Тип корпуса                                       708 Ball FC-BGA
+      Размеры корпуса                                   23 mm x 22 mm
+      Технологический процесс                           32 nm
+      Размер кристалла                                  47.87 mm2
+      Напряжение питания ядра                           1.05 V
+      TDP                                               4.1 W
+
+    High Definition Audio:
+      Имя кодека                                        Realtek ALC662
+      ID кодека                                         10EC0662h / 17AA367Dh
+      Версия кодека                                     1003h
+      Тип кодека                                        Audio
+
+    Контроллер PCI Express:
+      PCI-E 2.0 x1 port #1                              Пусто
+      PCI-E 2.0 x1 port #3                              Используется @ x1  (Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter)
+
+    Производитель чипсета:
+      Фирма                                             Intel Corporation
+      Информация о продукте                             https://www.intel.com/products/chipsets
+      Загрузка драйверов                                https://www.intel.com/support/chipsets
+      Модернизации BIOS                                 http://www.aida64.com/goto/?p=biosupdates
+      Обновление драйверов                              http://www.aida64.com/goto/?p=drvupdates
+
+
+--------[ BIOS ]--------------------------------------------------------------------------------------------------------
+
+    Свойства BIOS:
+      Тип BIOS                                          Неизвестно
+      Версия BIOS                                       IEKT17AUS
+      SMBIOS Version                                    2.7
+      UEFI Boot                                         Да
+      Secure Boot                                       Запрещено
+      Дата BIOS системы                                 09/04/2013
+      Дата BIOS видеоадаптера                           Неизвестно
+
+--------[ Debug - Unknown ]---------------------------------------------------------------------------------------------
+
+    BIOS            Unknown
+    SPD             No SPD module found! (BusCount = 0)
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.
